@@ -1,0 +1,1321 @@
+<!DOCTYPE html>
+<html lang="id" prefix="og: https://ogp.me/ns#">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="profile" href="https://gmpg.org/xfn/11">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pengertian Dan Fungsi Dari Function Sql - BELAJAR</title>
+    <meta name="description" content="Pengertian Dan Fungsi Dari Function Sql, , , , , , , 0, , , , , , 0, pengertian-dan-fungsi-dari-function-sql, BELAJAR" />
+    <meta name="robots" content="index,follow" />
+    <meta property="og:locale" content="id_ID" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Pengertian Dan Fungsi Dari Function Sql - BELAJAR" />
+    <meta property="og:description" content="Pengertian Dan Fungsi Dari Function Sql, , , , , , , 0, , , , , , 0, pengertian-dan-fungsi-dari-function-sql, BELAJAR" />
+    <meta property="og:site_name" content="BELAJAR" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Pengertian Dan Fungsi Dari Function Sql - BELAJAR" />
+    <meta name="twitter:description" content="Pengertian Dan Fungsi Dari Function Sql, , , , , , , 0, , , , , , 0, pengertian-dan-fungsi-dari-function-sql, BELAJAR" />
+    <link rel='stylesheet' id='generate-style-css' href='https://portalpendidikan.github.io/css/main.min.css'?ver=3.2.4'
+        media='all' />
+    <link rel='stylesheet' id='ez-toc-css' href='https://portalpendidikan.github.io/css/screen.min.css'?ver=2.0.40' media='all' />
+    <style id='generate-style-inline-css'>
+        body {
+            background-color: #f7f7f7;
+            color: #222222;
+        }
+
+        a {
+            color: #1e73be;
+        }
+
+        a:hover,
+        a:focus,
+        a:active {
+            color: #000000;
+        }
+
+        .wp-block-group__inner-container {
+            max-width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .generate-back-to-top {
+            font-size: 20px;
+            border-radius: 3px;
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            line-height: 40px;
+            width: 40px;
+            text-align: center;
+            z-index: 10;
+            transition: opacity 300ms ease-in-out;
+            opacity: 0.1;
+            transform: translateY(1000px);
+        }
+
+        .generate-back-to-top__show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .navigation-search {
+            position: absolute;
+            left: -99999px;
+            pointer-events: none;
+            visibility: hidden;
+            z-index: 20;
+            width: 100%;
+            top: 0;
+            transition: opacity 100ms ease-in-out;
+            opacity: 0;
+        }
+
+        .navigation-search.nav-search-active {
+            left: 0;
+            right: 0;
+            pointer-events: auto;
+            visibility: visible;
+            opacity: 1;
+        }
+
+        .navigation-search input[type="search"] {
+            outline: 0;
+            border: 0;
+            vertical-align: bottom;
+            line-height: 1;
+            opacity: 0.9;
+            width: 100%;
+            z-index: 20;
+            border-radius: 0;
+            -webkit-appearance: none;
+            height: 60px;
+        }
+
+        .navigation-search input::-ms-clear {
+            display: none;
+            width: 0;
+            height: 0;
+        }
+
+        .navigation-search input::-ms-reveal {
+            display: none;
+            width: 0;
+            height: 0;
+        }
+
+        .navigation-search input::-webkit-search-decoration,
+        .navigation-search input::-webkit-search-cancel-button,
+        .navigation-search input::-webkit-search-results-button,
+        .navigation-search input::-webkit-search-results-decoration {
+            display: none;
+        }
+
+        .gen-sidebar-nav .navigation-search {
+            top: auto;
+            bottom: 0;
+        }
+
+        :root {
+            --contrast: #222222;
+            --contrast-2: #575760;
+            --contrast-3: #b2b2be;
+            --base: #f0f0f0;
+            --base-2: #f7f8f9;
+            --base-3: #ffffff;
+            --accent: #1e73be;
+        }
+
+        .has-contrast-color {
+            color: var(--contrast);
+        }
+
+        .has-contrast-background-color {
+            background-color: var(--contrast);
+        }
+
+        .has-contrast-2-color {
+            color: var(--contrast-2);
+        }
+
+        .has-contrast-2-background-color {
+            background-color: var(--contrast-2);
+        }
+
+        .has-contrast-3-color {
+            color: var(--contrast-3);
+        }
+
+        .has-contrast-3-background-color {
+            background-color: var(--contrast-3);
+        }
+
+        .has-base-color {
+            color: var(--base);
+        }
+
+        .has-base-background-color {
+            background-color: var(--base);
+        }
+
+        .has-base-2-color {
+            color: var(--base-2);
+        }
+
+        .has-base-2-background-color {
+            background-color: var(--base-2);
+        }
+
+        .has-base-3-color {
+            color: var(--base-3);
+        }
+
+        .has-base-3-background-color {
+            background-color: var(--base-3);
+        }
+
+        .has-accent-color {
+            color: var(--accent);
+        }
+
+        .has-accent-background-color {
+            background-color: var(--accent);
+        }
+
+        body,
+        button,
+        input,
+        select,
+        textarea {
+            font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        }
+
+        body {
+            line-height: 1.5;
+        }
+
+        .entry-content>[class*="wp-block-"]:not(:last-child) {
+            margin-bottom: 1.5em;
+        }
+
+        .main-navigation .main-nav ul ul li a {
+            font-size: 14px;
+        }
+
+        .sidebar .widget,
+        .footer-widgets .widget {
+            font-size: 17px;
+        }
+
+        @media (max-width:768px) {
+            h1 {
+                font-size: 31px;
+            }
+
+            h2 {
+                font-size: 27px;
+            }
+
+            h3 {
+                font-size: 24px;
+            }
+
+            h4 {
+                font-size: 22px;
+            }
+
+            h5 {
+                font-size: 19px;
+            }
+        }
+
+        .top-bar {
+            background-color: #636363;
+            color: #ffffff;
+        }
+
+        .top-bar a {
+            color: #ffffff;
+        }
+
+        .top-bar a:hover {
+            color: #303030;
+        }
+
+        .site-header {
+            background-color: #ffffff;
+        }
+
+        .main-title a,
+        .main-title a:hover {
+            color: #222222;
+        }
+
+        .site-description {
+            color: #757575;
+        }
+
+        .main-navigation,
+        .main-navigation ul ul {
+            background-color: #ed4250;
+        }
+
+        .main-navigation .main-nav ul li a,
+        .main-navigation .menu-toggle,
+        .main-navigation .menu-bar-items {
+            color: #ffffff;
+        }
+
+        .main-navigation .main-nav ul li:not([class*="current-menu-"]):hover>a,
+        .main-navigation .main-nav ul li:not([class*="current-menu-"]):focus>a,
+        .main-navigation .main-nav ul li.sfHover:not([class*="current-menu-"])>a,
+        .main-navigation .menu-bar-item:hover>a,
+        .main-navigation .menu-bar-item.sfHover>a {
+            color: #ffffff;
+            background-color: #c42f2f;
+        }
+
+        button.menu-toggle:hover,
+        button.menu-toggle:focus {
+            color: #ffffff;
+        }
+
+        .main-navigation .main-nav ul li[class*="current-menu-"]>a {
+            color: #ffffff;
+            background-color: #c42f2f;
+        }
+
+        .navigation-search input[type="search"],
+        .navigation-search input[type="search"]:active,
+        .navigation-search input[type="search"]:focus,
+        .main-navigation .main-nav ul li.search-item.active>a,
+        .main-navigation .menu-bar-items .search-item.active>a {
+            color: #ffffff;
+            background-color: #c42f2f;
+        }
+
+        .main-navigation ul ul {
+            background-color: #c42f2f;
+        }
+
+        .main-navigation .main-nav ul ul li a {
+            color: #ffffff;
+        }
+
+        .main-navigation .main-nav ul ul li:not([class*="current-menu-"]):hover>a,
+        .main-navigation .main-nav ul ul li:not([class*="current-menu-"]):focus>a,
+        .main-navigation .main-nav ul ul li.sfHover:not([class*="current-menu-"])>a {
+            color: #fcd9d6;
+            background-color: #c42f2f;
+        }
+
+        .main-navigation .main-nav ul ul li[class*="current-menu-"]>a {
+            color: #fcd9d6;
+            background-color: #c42f2f;
+        }
+
+        .separate-containers .inside-article,
+        .separate-containers .comments-area,
+        .separate-containers .page-header,
+        .one-container .container,
+        .separate-containers .paging-navigation,
+        .inside-page-header {
+            background-color: #ffffff;
+        }
+
+        .entry-title a {
+            color: #222222;
+        }
+
+        .entry-title a:hover {
+            color: #55555e;
+        }
+
+        .entry-meta {
+            color: #595959;
+        }
+
+        .sidebar .widget {
+            background-color: #ffffff;
+        }
+
+        .footer-widgets {
+            background-color: #ffffff;
+        }
+
+        .footer-widgets .widget-title {
+            color: #000000;
+        }
+
+        .site-info {
+            color: #ffffff;
+            background-color: #55555e;
+        }
+
+        .site-info a {
+            color: #ffffff;
+        }
+
+        .site-info a:hover {
+            color: #d3d3d3;
+        }
+
+        .footer-bar .widget_nav_menu .current-menu-item a {
+            color: #d3d3d3;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="url"],
+        input[type="password"],
+        input[type="search"],
+        input[type="tel"],
+        input[type="number"],
+        textarea,
+        select {
+            color: #666666;
+            background-color: #fafafa;
+            border-color: #cccccc;
+        }
+
+        input[type="text"]:focus,
+        input[type="email"]:focus,
+        input[type="url"]:focus,
+        input[type="password"]:focus,
+        input[type="search"]:focus,
+        input[type="tel"]:focus,
+        input[type="number"]:focus,
+        textarea:focus,
+        select:focus {
+            color: #666666;
+            background-color: #ffffff;
+            border-color: #bfbfbf;
+        }
+
+        button,
+        html input[type="button"],
+        input[type="reset"],
+        input[type="submit"],
+        a.button,
+        a.wp-block-button__link:not(.has-background) {
+            color: #ffffff;
+            background-color: #55555e;
+        }
+
+        button:hover,
+        html input[type="button"]:hover,
+        input[type="reset"]:hover,
+        input[type="submit"]:hover,
+        a.button:hover,
+        button:focus,
+        html input[type="button"]:focus,
+        input[type="reset"]:focus,
+        input[type="submit"]:focus,
+        a.button:focus,
+        a.wp-block-button__link:not(.has-background):active,
+        a.wp-block-button__link:not(.has-background):focus,
+        a.wp-block-button__link:not(.has-background):hover {
+            color: #ffffff;
+            background-color: #3f4047;
+        }
+
+        a.generate-back-to-top {
+            background-color: rgba(0, 0, 0, 0.4);
+            color: #ffffff;
+        }
+
+        a.generate-back-to-top:hover,
+        a.generate-back-to-top:focus {
+            background-color: rgba(0, 0, 0, 0.6);
+            color: #ffffff;
+        }
+
+        @media (max-width:768px) {
+
+            .main-navigation .menu-bar-item:hover>a,
+            .main-navigation .menu-bar-item.sfHover>a {
+                background: none;
+                color: #ffffff;
+            }
+        }
+
+        .nav-below-header .main-navigation .inside-navigation.grid-container,
+        .nav-above-header .main-navigation .inside-navigation.grid-container {
+            padding: 0px 20px 0px 20px;
+        }
+
+        .site-main .wp-block-group__inner-container {
+            padding: 40px;
+        }
+
+        .separate-containers .paging-navigation {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        .entry-content .alignwide,
+        body:not(.no-sidebar) .entry-content .alignfull {
+            margin-left: -40px;
+            width: calc(100% + 80px);
+            max-width: calc(100% + 80px);
+        }
+
+        .rtl .menu-item-has-children .dropdown-menu-toggle {
+            padding-left: 20px;
+        }
+
+        .rtl .main-navigation .main-nav ul li.menu-item-has-children>a {
+            padding-right: 20px;
+        }
+
+        @media (max-width:768px) {
+
+            .separate-containers .inside-article,
+            .separate-containers .comments-area,
+            .separate-containers .page-header,
+            .separate-containers .paging-navigation,
+            .one-container .site-content,
+            .inside-page-header {
+                padding: 30px;
+            }
+
+            .site-main .wp-block-group__inner-container {
+                padding: 30px;
+            }
+
+            .inside-top-bar {
+                padding-right: 30px;
+                padding-left: 30px;
+            }
+
+            .inside-header {
+                padding-right: 30px;
+                padding-left: 30px;
+            }
+
+            .widget-area .widget {
+                padding-top: 30px;
+                padding-right: 30px;
+                padding-bottom: 30px;
+                padding-left: 30px;
+            }
+
+            .footer-widgets-container {
+                padding-top: 30px;
+                padding-right: 30px;
+                padding-bottom: 30px;
+                padding-left: 30px;
+            }
+
+            .inside-site-info {
+                padding-right: 30px;
+                padding-left: 30px;
+            }
+
+            .entry-content .alignwide,
+            body:not(.no-sidebar) .entry-content .alignfull {
+                margin-left: -30px;
+                width: calc(100% + 60px);
+                max-width: calc(100% + 60px);
+            }
+
+            .one-container .site-main .paging-navigation {
+                margin-bottom: 20px;
+            }
+        }
+
+        /* End cached CSS */
+        .is-right-sidebar {
+            width: 30%;
+        }
+
+        .is-left-sidebar {
+            width: 30%;
+        }
+
+        .site-content .content-area {
+            width: 70%;
+        }
+
+        @media (max-width:768px) {
+
+            .main-navigation .menu-toggle,
+            .sidebar-nav-mobile:not(#sticky-placeholder) {
+                display: block;
+            }
+
+            .main-navigation ul,
+            .gen-sidebar-nav,
+            .main-navigation:not(.slideout-navigation):not(.toggled) .main-nav>ul,
+            .has-inline-mobile-toggle #site-navigation .inside-navigation>*:not(.navigation-search):not(.main-nav) {
+                display: none;
+            }
+
+            .nav-align-right .inside-navigation,
+            .nav-align-center .inside-navigation {
+                justify-content: space-between;
+            }
+        }
+    </style>
+    <link rel="icon" href="https://portalpendidikan.github.io/img/cropped-soalbelajar-32x32.png" sizes="32x32" />
+    <link rel="icon" href="https://portalpendidikan.github.io/img/cropped-soalbelajar-192x192.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="https://portalpendidikan.github.io/img/cropped-soalbelajar-180x180.png" />
+    <meta name="msapplication-TileImage" content="https://portalpendidikan.github.io/img/cropped-soalbelajar-270x270.png" />
+</head>
+
+<body
+    class="home blog wp-custom-logo wp-embed-responsive right-sidebar nav-above-header separate-containers nav-search-enabled nav-aligned-center header-aligned-center dropdown-hover"
+    itemtype="https://schema.org/Blog" itemscope>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-dark-grayscale">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 0.49803921568627" />
+                    <feFuncG type="table" tableValues="0 0.49803921568627" />
+                    <feFuncB type="table" tableValues="0 0.49803921568627" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-grayscale">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 1" />
+                    <feFuncG type="table" tableValues="0 1" />
+                    <feFuncB type="table" tableValues="0 1" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-purple-yellow">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.54901960784314 0.98823529411765" />
+                    <feFuncG type="table" tableValues="0 1" />
+                    <feFuncB type="table" tableValues="0.71764705882353 0.25490196078431" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-blue-red">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 1" />
+                    <feFuncG type="table" tableValues="0 0.27843137254902" />
+                    <feFuncB type="table" tableValues="0.5921568627451 0.27843137254902" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-midnight">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 0" />
+                    <feFuncG type="table" tableValues="0 0.64705882352941" />
+                    <feFuncB type="table" tableValues="0 1" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-magenta-yellow">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.78039215686275 1" />
+                    <feFuncG type="table" tableValues="0 0.94901960784314" />
+                    <feFuncB type="table" tableValues="0.35294117647059 0.47058823529412" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-purple-green">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.65098039215686 0.40392156862745" />
+                    <feFuncG type="table" tableValues="0 1" />
+                    <feFuncB type="table" tableValues="0.44705882352941 0.4" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-blue-orange">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.098039215686275 1" />
+                    <feFuncG type="table" tableValues="0 0.66274509803922" />
+                    <feFuncB type="table" tableValues="0.84705882352941 0.41960784313725" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><a class="screen-reader-text skip-link" href="#content" title="Langsung ke isi">Langsung ke isi</a>
+    <nav class="main-navigation nav-align-center has-menu-bar-items sub-menu-right" id="site-navigation"
+        aria-label="Utama" itemtype="https://schema.org/SiteNavigationElement" itemscope>
+        <div class="inside-navigation grid-container">
+            <form method="get" class="search-form navigation-search" action="/">
+                <input type="search" class="search-field" value="" name="q" title="Cari" />
+            </form> <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
+                <span class="gp-icon icon-menu-bars"><svg viewBox="0 0 512 512" aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg" width="1em" height="1em">
+                        <path
+                            d="M0 96c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24zm0 160c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24zm0 160c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24z" />
+                    </svg><svg viewBox="0 0 512 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                        width="1em" height="1em">
+                        <path
+                            d="M71.029 71.029c9.373-9.372 24.569-9.372 33.942 0L256 222.059l151.029-151.03c9.373-9.372 24.569-9.372 33.942 0 9.372 9.373 9.372 24.569 0 33.942L289.941 256l151.03 151.029c9.372 9.373 9.372 24.569 0 33.942-9.373 9.372-24.569 9.372-33.942 0L256 289.941l-151.029 151.03c-9.373 9.372-24.569 9.372-33.942 0-9.372-9.373-9.372-24.569 0-33.942L222.059 256 71.029 104.971c-9.372-9.373-9.372-24.569 0-33.942z" />
+                    </svg></span><span class="mobile-menu">Menu</span> </button>
+            <div id="primary-menu" class="main-nav">
+                <ul id="menu-soal-belajar" class=" menu sf-menu">
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1"><a
+                            href="https://portalpendidikan.github.io">Home</a></li>
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2"><a
+                            href="https://portalpendidikan.github.io/page/dmca.html">DMCA</a></li>
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3"><a
+                            href="https://portalpendidikan.github.io/page/privacy-policy.html">Privacy Policy</a></li>
+                </ul>
+                </ul>
+            </div>
+            <div class="menu-bar-items"><span class="menu-bar-item search-item"><a aria-label="Buka Kolom Pencarian"
+                        href="#"><span class="gp-icon icon-search"><svg viewBox="0 0 512 512"
+                                aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M208 48c-88.366 0-160 71.634-160 160s71.634 160 160 160 160-71.634 160-160S296.366 48 208 48zM0 208C0 93.125 93.125 0 208 0s208 93.125 208 208c0 48.741-16.765 93.566-44.843 129.024l133.826 134.018c9.366 9.379 9.355 24.575-.025 33.941-9.379 9.366-24.575 9.355-33.941-.025L337.238 370.987C301.747 399.167 256.839 416 208 416 93.125 416 0 322.875 0 208z" />
+                            </svg><svg viewBox="0 0 512 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                                width="1em" height="1em">
+                                <path
+                                    d="M71.029 71.029c9.373-9.372 24.569-9.372 33.942 0L256 222.059l151.029-151.03c9.373-9.372 24.569-9.372 33.942 0 9.372 9.373 9.372 24.569 0 33.942L289.941 256l151.03 151.029c9.372 9.373 9.372 24.569 0 33.942-9.373 9.372-24.569 9.372-33.942 0L256 289.941l-151.029 151.03c-9.373 9.372-24.569 9.372-33.942 0-9.372-9.373-9.372-24.569 0-33.942L222.059 256 71.029 104.971c-9.372-9.373-9.372-24.569 0-33.942z" />
+                            </svg></span></a></span></div>
+        </div>
+    </nav>
+    <header class="site-header grid-container" id="masthead" aria-label="Situs"
+        itemtype="https://schema.org/WPHeader" itemscope>
+        <div class="inside-header grid-container">
+            <h1 class="site-logo">
+                <a href="https://portalpendidikan.github.io" rel="home"> BELAJAR</a>
+            </h1>
+        </div>
+    </header>
+
+    <div class="site grid-container container hfeed" id="page">
+        <div class="site-content" id="content">
+            <div class="content-area" id="primary">
+                    <main class="site-main" id="main">
+        <article id="post-1327" class="post-1327 post type-post status-publish format-standard hentry category-info"
+            itemtype="https://schema.org/CreativeWork" itemscope="">
+            <div class="inside-article">
+                <header class="entry-header" aria-label="Konten">
+                    <h1 class="entry-title" itemprop="headline">Pengertian Dan Fungsi Dari Function Sql</h1>
+                    <div class="entry-meta">
+                       <span
+                            class="byline">oleh <span class="author vcard" itemprop="author"
+                                itemtype="https://schema.org/Person" itemscope=""><span class="author-name"
+                                    itemprop="name">Febrianhidayat12</span></span></span>
+                    </div>
+                </header>
+                <div class="entry-content" itemprop="text">
+                    <div style="text-align: center">
+                        <img src="https://tse1.mm.bing.net/th?q=Pengertian+Dan+Fungsi+Dari+Function+Sql" alt="Pengertian Dan Fungsi Dari Function Sql">
+                    </div>
+                    <p></p>
+                    <p>Sebutkan Pengertian SQL Injection Dan Fungsinya 
+Jangan  Pusing Yah
+#MauTestOtak</p>
+                    <div id="ez-toc-container"
+                        class="ez-toc-v2_0_40 counter-hierarchy ez-toc-counter ez-toc-light-blue ez-toc-container-direction">
+                        <div class="ez-toc-title-container">
+                            <p class="ez-toc-title">Daftar Isi</p>
+                            <span class="ez-toc-title-toggle"><a href="#"
+                                    class="ez-toc-pull-right ez-toc-btn ez-toc-btn-xs ez-toc-btn-default ez-toc-toggle"
+                                    area-label="ez-toc-toggle-icon-1"><label for="item-63b392361c4a0"
+                                        aria-label="Table of Content"><span
+                                            style="display: flex;align-items: center;width: 35px;height: 30px;justify-content: center;direction:ltr;"><svg
+                                                style="fill: #999;color:#999" xmlns="http://www.w3.org/2000/svg"
+                                                class="list-377408" width="20px" height="20px" viewBox="0 0 24 24"
+                                                fill="none">
+                                                <path
+                                                    d="M6 6H4v2h2V6zm14 0H8v2h12V6zM4 11h2v2H4v-2zm16 0H8v2h12v-2zM4 16h2v2H4v-2zm16 0H8v2h12v-2z"
+                                                    fill="currentColor"></path>
+                                            </svg><svg style="fill: #999;color:#999" class="arrow-unsorted-368013"
+                                                xmlns="http://www.w3.org/2000/svg" width="10px" height="10px"
+                                                viewBox="0 0 24 24" version="1.2" baseProfile="tiny">
+                                                <path
+                                                    d="M18.2 9.3l-6.2-6.3-6.2 6.3c-.2.2-.3.4-.3.7s.1.5.3.7c.2.2.4.3.7.3h11c.3 0 .5-.1.7-.3.2-.2.3-.5.3-.7s-.1-.5-.3-.7zM5.8 14.7l6.2 6.3 6.2-6.3c.2-.2.3-.5.3-.7s-.1-.5-.3-.7c-.2-.2-.4-.3-.7-.3h-11c-.3 0-.5.1-.7.3-.2.2-.3.5-.3.7s.1.5.3.7z">
+                                                </path>
+                                            </svg></span></label><input type="checkbox" id="item-63b392361c4a0"></a></span>
+                        </div>
+                        <nav>
+                            <ul class="ez-toc-list ez-toc-list-level-1 ">
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#sebutkan-pengertian-sql-injection-dan-fungsinya-jangan-pusing-yahmautestotak">1.
+                                            Sebutkan Pengertian SQL Injection Dan Fungsinya 
+Jangan  Pusing Yah
+#MauTestOtak</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#apa-pengertian-function-fungsi">2.
+                                                 Apa Pengertian FUNCTION (fungsi) ??</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#pengertian-having-dalam-sql">3.
+                                            Pengertian having dalam sql</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#apa-pengertian-dari-functionfast%e2%80%8b">4.
+                                            apa pengertian dari function?fast​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#dalam-program-sql-server-database-schema-berfungsi-untuk">5.
+                                            Dalam program SQL server, database schema berfungsi untuk</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#apa-kepanjangan-dari-sql">6.
+                                            apa kepanjangan dari sql</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#apa-sih-fungsinya-ms-sql-profiler-dan-digunakan-dalam-bagaimana">7.
+                                            apa sih fungsinya MS SQL Profiler? dan digunakan dalam bagaimana?</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#fungsi-sql-untuk-untuk-membuat-data-base-dan-objek-yang-ada-dalam-database-adalah">8.
+                                            Fungsi SQL untuk untuk membuat data base dan objek yang ada dalam database adalah</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#cara-membuat-prosedur-dan-fungsi-sql">9.
+                                            cara membuat prosedur dan fungsi sql</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#contoh-deklarasi-fungsi-yang-tidak-tepat-adalah-a-function-persen-b-function-ceknilai-c-function-5belas-d-function-increment-%e2%80%8b">10.
+                                            Contoh deklarasi fungsi yang tidak tepat adalah .... A. function persen() {} B. function cekNilai() {} C. function 5belas() {} D. function increment() {}​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#pengertian-dari-function-form">11.
+                                            Pengertian dari function form</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#sebuah-perintah-pada-sql-yang-berfungsi-untuk-menghubungkan-tabel-yang-satu-dengan-tabel-yang-lain-yang-saling-berelasi-atau-berhubungan-adalah">12.
+                                            sebuah perintah pada sql yang berfungsi untuk menghubungkan tabel yang satu dengan tabel yang lain yang saling berelasi atau berhubungan adalah</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#sebuah-perintah-pada-sql-yang-berfungsi-untuk-menghubungkan-table-yang-satu-dengan-yang-lain-yang-saling-berhubungan-atau-berelasi-disebut%e2%80%8b">13.
+                                            Sebuah perintah pada SQL yang berfungsi untuk menghubungkan table yang satu dengan yang lain yang saling berhubungan atau berelasi disebut​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#bagaimana-cara-membuat-fungsi-di-javascripta-function-nama_fungsib-function-nama_fungsic-function-nama_fungsid-function-nama_fungsi%e2%80%8b">14.
+                                            Bagaimana cara membuat fungsi di JavaScript?A.) function nama_fungsi()B.) function =&gt; nama_fungsi()C.) function : nama_fungsi()D.) function [nama_fungsi]​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#pengertian-dari-social-function-dan-generic-function">15.
+                                            pengertian dari Social Function dan generic function</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#fungsi-perintah-sql-dan-penjelasannya">16.
+                                            fungsi perintah SQL dan penjelasannya</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#fungsi-import-dan-eksport-data-dari-my-sql-server">17.
+                                            Fungsi Import dan eksport data dari my sql server</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#pengertian-insert-function">18.
+                                            pengertian insert function</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#jelaskan-pengertian-dari-density-function-atau-fungsi-kerapatan">19.
+                                            Jelaskan pengertian dari density function atau fungsi kerapatan</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#apa-pengertian-tombol-function-keys-pada-keyboard">20.
+                                            apa pengertian tombol function keys pada keyboard???</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#jelaskan-apa-itu-sql">21.
+                                            jelaskan apa itu SQL??</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#fungsi-import-dan-eksport-data-dari-my-sql-server">22.
+                                            Fungsi Import dan eksport data dari my sql server</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#fungsi-import-pada-sql">23.
+                                            fungsi import pada sql</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#pengertian-kontrol-jendela-dan-fungsi-inset-function">24.
+                                            Pengertian Kontrol jendela dan fungsi Inset function</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#manfaat-dari-sql-itu-apa">25.
+                                            manfaat dari SQL itu apa?</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#apa-itu-sql-injection">26.
+                                            Apa itu sql injection</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#apa-fungsi-sql-dalam-pengembangan-perangkat-lunak%e2%80%8b">27.
+                                            apa fungsi SQL dalam pengembangan perangkat lunak​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#apa-fungsi-insert-function">28.
+                                            apa fungsi insert function </a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#fungsi-dari-phpfungsi-dari-sql">29.
+                                            Fungsi dari Php
+fungsi dari sql</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#tugas-cari-pengertiana-microsoft-sql-serverb-mysqlc-oracle%e2%80%8b">30.
+                                            Tugas :Cari pengertiana. Microsoft SQL Serverb. MySQLC. Oracle​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#kepanjangan-dari-sql-adalah">31.
+                                            kepanjangan dari SQL adalah</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#tuliskan-dan-jelaskan-pengertian-dari-function">32.
+                                            Tuliskan dan jelaskan pengertian dari function</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#apa-itu-sql-dan-database">33.
+                                            Apa itu sql dan database ? </a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#apa-yang-di-sebut-dengan-sql%e2%80%8b">34.
+                                            apa yang di sebut dengan sql​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#pengertian-function-dalam-bahasa-inggris">35.
+                                            pengertian function dalam bahasa inggris</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#apa-itu-sql-injection-dan-bagaimana-cara-melindungi-sebuah-website-dari-serangan-sql-injection%e2%80%8b">36.
+                                            Apa itu SQL injection dan bagaimana cara melindungi sebuah website dari serangan SQL injection?​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#pengertian-lecixogrammatical-function-beserta-contohnya">37.
+                                            pengertian lecixogrammatical function beserta contohnya</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#fungsi-dari-php-my-admin-dan-my-sql">38.
+                                            Fungsi dari php my admin dan my sql</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#fungsi-fungsi-formula-function-pada-saat-bekerja-dengan-spreadsheet">39.
+                                            fungsi fungsi formula function pada saat bekerja dengan spreadsheet</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#pengertian-purpose-atau-social-function">40.
+                                            Pengertian purpose atau social function</a>
+                                    </li>
+                                                            </ul>
+                        </nav>
+                    </div>
+                                            <h2 class="ez-toc-section" id="sebutkan-pengertian-sql-injection-dan-fungsinya-jangan-pusing-yahmautestotak">
+                            1. Sebutkan Pengertian SQL Injection Dan Fungsinya 
+Jangan  Pusing Yah
+#MauTestOtak</h2><br />
+                        berfungsi unttuk menddeteksi firu beberapa macamnyas atau<br />
+                                            <h2 class="ez-toc-section" id="apa-pengertian-function-fungsi">
+                            2.      Apa Pengertian FUNCTION (fungsi) ??</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Fungsi dalam istilah matematika merupakan pemetaan setiap anggota sebuah himpunan kepada anggota himpunan yang lain. Istilah ini berbeda pengertiannya dengan kata yang sama yang dipakai sehari-hari, seperti “alatnya berfungsi dengan baik</p><p><strong>Jawaban:</strong></p><p>suatu dari bagian program yang di pergunakan untuk mengerjakan suatu tugas tertentu yang menghasilkan suatu nilai untuk di kembalikan ke program pemanggil dan letaknya di pisahkan dari bagian program yang menggunakannya.</p><p></p><p></p>Simak lebih lanjut di Brainly.co.id - https://brainly.co.id/tugas/22025709#readmorehttps://brainly.co.id/tugas/10571384<p></p><p></p>#SemogaMembantu#StayAtHomeFirst#BelajarDariRumah#GoodLuck<p></p><p>Suka Dengan Jawabanku? Jangan Lupa Untuk <strong>F</strong><strong>o</strong><strong>l</strong><strong>l</strong><strong>o</strong><strong>w</strong>, <strong>T</strong><strong>e</strong><strong>r</strong><strong>i</strong><strong>m</strong><strong>a</strong><strong> </strong><strong>K</strong><strong>a</strong><strong>s</strong><strong>i</strong><strong>h</strong>, <strong>N</strong><strong>i</strong><strong>l</strong><strong>a</strong><strong>i</strong><strong> </strong><strong>5</strong>, Dan<strong> </strong><strong>J</strong><strong>a</strong><strong>d</strong><strong>i</strong><strong>k</strong><strong>a</strong><strong>n</strong><strong> </strong><strong>J</strong><strong>a</strong><strong>w</strong><strong>a</strong><strong>b</strong><strong>a</strong><strong>n</strong><strong> </strong><strong>T</strong><strong>e</strong><strong>r</strong><strong>b</strong><strong>a</strong><strong>i</strong><strong>k</strong>. Terima Kasih</p><p></p><br />
+                                            <h2 class="ez-toc-section" id="pengertian-having-dalam-sql">
+                            3. Pengertian having dalam sql</h2><br />
+                        having pada sql digunakan sebagai pengganti where dimana where tidak bisa menjalankan fungsi contohnya having count. dari sini dapat dipahami having adalah fungsi untuk memfilter data dengan kondisi khusus menggunakan fungsi lainnya.<br />
+                                            <h2 class="ez-toc-section" id="apa-pengertian-dari-functionfast%e2%80%8b">
+                            4. apa pengertian dari function?fast​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Fungsi (function) adalah sub modul atau sub program yang dibuat untuk menyelesaikan hal tertentu. Fungsi memiliki nama dan dalam ANSI/C, diimplementasi untuk hal-hal yang khusus dan dapat dipanggil berkali-kali (berulang) dalam program.</p><p><strong>Penjelasan:</strong></p><p>maaf kalau salah jadikan aku jawaban tercerdas pliss lagi butuh banget</p><p><strong>Jawaban:</strong></p><p>Fungsi (function) adalah sub modul atau sub program yang dibuat untuk menyelesaikan hal tertentu.</p><p></p><p></p><br />
+                                            <h2 class="ez-toc-section" id="dalam-program-sql-server-database-schema-berfungsi-untuk">
+                            5. Dalam program SQL server, database schema berfungsi untuk</h2><br />
+                        <p>Fungsi dari database schema <strong>adalah</strong> sebagai tempat untuk menyimpang berbagai macam informasi mengenai database yang dibuat. Dalam database, seperti kita ketahui terdiri dari beberapa kumpulan tabel, triger, procedure dan beberapa informasi lainnya. </p>Pembahasan<p>Setelah mengetahui fungsi dari database schema, maka selanjutnya kita akan menyebutkan berbagai macam software database yang sering digunakan, beberapa software database tersebut adalah</p>MySQLSQL ServerPostgreSQLMicrosoft AccessOracle<p>Pemilihan software database yang akan digunakan, biasanya disesuaikan dengan banyaknya data yang akan dimasukkan atau berdasarkan kemudahan terhadap pengembangan aplikasinya. Misal yang digunakan bersama-sama oleh team kita pada saat membuat aplikasi websire menggunakan PHP maka database nya identik dengan MySQL.</p>Pelajari lebih lanjut<p>Demikian pembahasan mengenai database schema pada SQL Server, fungsi dari database schema pada SQL Server untuk menyimpan berbagai macam informasi mengenai database yang dibuat. Untuk mempelajari lebih lanjut mengenai database dapat dibaca pada link berikut</p><p>1. Oracle corporation yang memposisikan diri sebagai produsen software database https://brainly.co.id/tugas/19612007</p><p>2. Jelaskan hubungan antara hardware, software, database, dan brainware pada sebuah sistem informasi https://brainly.co.id/tugas/16359067</p><p>3. Mengapa aplikasi database ms acces tidak dikategorikan sebagai database server https://brainly.co.id/tugas/5083546</p>Detil jawaban <p><strong>Kelas:</strong> 7 SMP</p><p><strong>Mapel:</strong> TI</p><p><strong>Bab: </strong>Pengertian dari database schema</p><p><strong>Kode:</strong> 7.11.8</p><p><strong>Kata Kunci:</strong> Pengertian dari database schema</p><br /><br />
+                                            <h2 class="ez-toc-section" id="apa-kepanjangan-dari-sql">
+                            6. apa kepanjangan dari sql</h2><br />
+                        structured query language<br />
+                                            <h2 class="ez-toc-section" id="apa-sih-fungsinya-ms-sql-profiler-dan-digunakan-dalam-bagaimana">
+                            7. apa sih fungsinya MS SQL Profiler? dan digunakan dalam bagaimana?</h2><br />
+                        SQL adalah software untuk membuat basis data. berfungsi untuk memanjamen  dan menganalisis basis data yang ada, <br />nah sql profiler ini tujuannya untuk memudahkan dalam pelacakan (trace) data dalam database  , entah data yang salah atau kode query yang salah. <br />cara gunainnya buka sql server buka atau pilih profiler ( profiler biasanya harus di download dulu kalo gak ada di sql server) &gt; pilih new trace &gt; pilih bagian mana yang mau di cek<br /><br /><br />
+                                            <h2 class="ez-toc-section" id="fungsi-sql-untuk-untuk-membuat-data-base-dan-objek-yang-ada-dalam-database-adalah">
+                            8. Fungsi SQL untuk untuk membuat data base dan objek yang ada dalam database adalah</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Obyek-obyek Database
+</p><p>- Tabel : Menyimpan data; terdiri dari baris dan kolom</p><p>- View : Mewakili secara logika sub-sub kelompok data dari satu atau lebih tabel
+</p><p>- Sequence : Pembangkit nilai-nilai numerik
+</p><p>- Index : Meningkatkan performa dari beberapa query
+</p><p>- Synonym : Memberikan nama-nama alternatif untuk obyek-obyek</p><p><strong>Penjelasan:</strong></p><p></p><br />
+                                            <h2 class="ez-toc-section" id="cara-membuat-prosedur-dan-fungsi-sql">
+                            9. cara membuat prosedur dan fungsi sql</h2><br />
+                        SQL adalah suatu sistem manajemen database relasional (RDBMS) yang dirancang untuk aplikasi dengan arsitektur client/server,.<br /><br />Fungsinya :<br />memungkinkan pengguna untuk mengakses dan memanipulasi database.<br />dapat membuat prosedur yang tersimpan dalam database<br />dapat membuat table maupun database baru<br />dapat pula mengeksekusi query terhadap database<br /><br /><br />
+                                            <h2 class="ez-toc-section" id="contoh-deklarasi-fungsi-yang-tidak-tepat-adalah-a-function-persen-b-function-ceknilai-c-function-5belas-d-function-increment-%e2%80%8b">
+                            10. Contoh deklarasi fungsi yang tidak tepat adalah .... A. function persen() {} B. function cekNilai() {} C. function 5belas() {} D. function increment() {}​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>C. function 5belas() {}</p><p><strong>Penjelasan:</strong></p><p>Pemberian nama pada fungsi tidak bisa diawali dengan angka.</p><br />
+                                            <h2 class="ez-toc-section" id="pengertian-dari-function-form">
+                            11. Pengertian dari function form</h2><br />
+                        Artinya dari function from adalah bentuk fungsi<br />
+                                            <h2 class="ez-toc-section" id="sebuah-perintah-pada-sql-yang-berfungsi-untuk-menghubungkan-tabel-yang-satu-dengan-tabel-yang-lain-yang-saling-berelasi-atau-berhubungan-adalah">
+                            12. sebuah perintah pada sql yang berfungsi untuk menghubungkan tabel yang satu dengan tabel yang lain yang saling berelasi atau berhubungan adalah</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>JOIN</p><p></p><p><strong>Penjelasan:</strong></p><p>Sebagai contoh:</p><p>Dalam sebuah database, ada tabel "siswa" dan tabel "kelas". </p><p>Tabel "siswa" didefinisikan memiliki field: id_siswa, nama_siswa, id_kelas.</p><p>Tabel "kelas" didefinisikan memiliki field: id_kelas, nama_kelas.</p><p>Jika kita ingin menampilkan semua data siswa dan nama kelasnya, contoh perintah SQL yang bisa digunakan adalah:</p><p>[tex]\tt select\ a.id\_siswa,\ a.nama\_siswa,\ b.nama\_kelas}\\from\ siswa\ a\\join\ kelas\ b\ using(id\_kelas)\\[/tex]</p><p></p><p>Ada beberapa jenis join, yaitu: inner join, left join, right join, dan full join.</p><p></p><br />
+                                            <h2 class="ez-toc-section" id="sebuah-perintah-pada-sql-yang-berfungsi-untuk-menghubungkan-table-yang-satu-dengan-yang-lain-yang-saling-berhubungan-atau-berelasi-disebut%e2%80%8b">
+                            13. Sebuah perintah pada SQL yang berfungsi untuk menghubungkan table yang satu dengan yang lain yang saling berhubungan atau berelasi disebut​</h2><br />
+                        <p><strong>Penjelasan:</strong></p><p>fungsi JOIN menghubungkan tabel satu dengan yang lain jika kedua tabel tersebut memiliki relasi.</p><br />
+                                            <h2 class="ez-toc-section" id="bagaimana-cara-membuat-fungsi-di-javascripta-function-nama_fungsib-function-nama_fungsic-function-nama_fungsid-function-nama_fungsi%e2%80%8b">
+                            14. Bagaimana cara membuat fungsi di JavaScript?A.) function nama_fungsi()B.) function =&gt; nama_fungsi()C.) function : nama_fungsi()D.) function [nama_fungsi]​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>A. function nama_fungsi()</p><p><strong>Penjelasan:</strong></p><p><strong></strong></p><p></p><br />
+                                            <h2 class="ez-toc-section" id="pengertian-dari-social-function-dan-generic-function">
+                            15. pengertian dari Social Function dan generic function</h2><br />
+                        <p>Social function dan generic function merupakan bagian dari teks yang menyatakan tentang ciri-ciri dari teks tersebut. <strong>Menurut saya, ada kesalahan penulisan dalam pertanyaanmu. Mungkin yang kamu maksud adalah generic structure, bukan generic function karena generic function merupakan fungsi dalam bahasa pemrograman.</strong> Berikut penjelasannya.</p><p></p><p><strong>Penjelasan:</strong></p><p>Teks merupakan kumpulan paragraf yang saling terhubung untuk membahas suatu topik tertentu. Setiap jenis teks memiliki ciri-ciri khusus yang membedakannya dari jenis teks yang lain. Hal ini dinyatakan dalam social function, generic structure, dan language feature.
+</p><p><strong>1.	Social function
+</strong></p><p>Social function adalah tujuan dari penulisan suatu teks dalam masyarakat. Setiap jenis teks ditulis dengan tujuan yang berbeda-beda, perbedaan ini dinyatakan dalam social function. Contoh: social fuction of a descriptive text is to describe something/ someone (fungsi sosial teks deskriptif adalah untuk menggambarkan sesuatu/ seseorang).
+</p><p><strong>2.	Generic structures
+</strong></p><p>Generic structures adalah struktur paragraph suatu teks. Suatu teks tersusun atas beberapa paragraf, tiap paragraf tersebut memiliki isi dan fungsi yang berbeda sesuai dengan jenis teksnya. Contoh: generic structures dari recount text adalah orientation, event, and re-orientation.
+</p><p><strong>3.	Language features
+</strong></p><p>Language featurea adalah gaya bahasa yang digunakan dalam penulisan teks. Setiap jenis teks memiliki gaya bahasa yang berbeda-beda. Contoh: gaya bahasa recount text adalah menggunakan simple past tense karena menceritakan tentang kejadian di masa lampau.
+</p><p>
+</p><p>Semoga membantu.
+</p><p>
+</p><p><strong>Pelajari lebih lanjut
+</strong></p><p>Jenis-jenis teks dalam bahasa inggris https://brainly.co.id/tugas/3597877
+</p><p>Persamaan dan perbedaan narrative text dan recount text https://brainly.co.id/tugas/4055142
+</p><p>Perbedaan explanation text dan report text https://brainly.co.id/tugas/8983633
+</p><p>
+</p><p><strong>Detil Jawaban
+</strong></p><p>Kelas: X
+</p><p>Mata Pelajaran: Bahasa Inggris
+</p><p>Bab: Reading Texts
+</p><p>Kode Kategori: 10.5.1
+</p><p>
+</p><p>#AyoBelajar
+</p><br />
+                                            <h2 class="ez-toc-section" id="fungsi-perintah-sql-dan-penjelasannya">
+                            16. fungsi perintah SQL dan penjelasannya</h2><br />
+                        Ini adalah Beberapa Fungsinya Perintah SQL<br />1. Query<br />Perintah yang digunakan untuk menampilkan data dari database,. perintah yang digunakan adalah SELECT.<br /><br />2. DML (Data Manipulation Language)<br />Perintah yang digunakan untuk manipulasi data seperti menambah, mengedit, menghapus data. Perintah yang digunakan INSERT, DELETE, UPDATE, MERGE<br /><br />3. DDL (Data Definition Language)<br />Perintah yang digunakan untuk mendefiniskan struktur Objek database seperti membuat tabel, mengubah struktur tabel, menghapus tabel. Perintah yang digunakan CREATE, ALTER, DROP, TRUNCATE, RENAME<br /><br />4. DCL (Data Control Language)<br />Perintah yang digunakan untuk mengatur perijinan akses terhadap database. Perintah yang digunakan GRANT, REVOKE<br /><br />5. TCL (Transaction Control Language)<br />Perintah yang digunakan untuk menentukan suatu transaksi diterapkan secara permanen atau dibatalkan. Perintah yang digunakan COMMIT, ROLLBACK, SAVEPOINT.<br /><br />Semoga Bermanfaat <br />
+                                            <h2 class="ez-toc-section" id="fungsi-import-dan-eksport-data-dari-my-sql-server">
+                            17. Fungsi Import dan eksport data dari my sql server</h2><br />
+                        Export adalah langkah untuk menghasilkan suatu file baru yang menyimpan informasi database agar dapat di restore (dikembalikan) ke database semula. <br /><br />sedangkan<br /><br />Import adalah mengambil sesuatu atau data file dari luar baik itu dari aplikasi itu sendiri maupun dari aplikasi lain.<br />
+                                            <h2 class="ez-toc-section" id="pengertian-insert-function">
+                            18. pengertian insert function</h2><br />
+                        Untuk memilih jenis jenis fungsi yg akan di gunakan<br />
+                                            <h2 class="ez-toc-section" id="jelaskan-pengertian-dari-density-function-atau-fungsi-kerapatan">
+                            19. Jelaskan pengertian dari density function atau fungsi kerapatan</h2><br />
+                        <p><strong>Dalam teori probabilitas</strong>, Fungsi kepadatan probabilitas atau fkp merupakan segolongan fungsi yang sering digunakan dalam teori statistika untuk menjelaskan perilaku suatu distribusi probabilitas teoretis.</p><p></p><p>Suatu fungsi memenuhi kriteria sebagai fkp apabila nilainya selalu positif untuk setiap titik absis dan fungsi primitifnya merupakan distribusi probabilitas. </p><p></p><p>Ini berarti bahwa suatu fkp berharga non-negatif untuk semua nilai absis dan hasil integral tertentunya yang merentang dari −∞ menuju +∞ sama dengan satu. </p><p></p><p>Selain disebut sebagai fungsi kepekatan probabilitas, pustaka-pustaka juga menyebutnya sebagai fungsi kepekatan peluang atau fungsi kerapatan probabilitas</p><p></p><strong>-</strong><strong>-</strong><strong>-</strong><strong>-</strong><strong>-</strong><strong>-</strong><strong>-</strong><strong>-</strong><strong>-</strong><strong>-</strong><strong>-</strong><strong>-</strong><strong>-</strong><strong>-</strong><strong>-</strong><strong>-</strong><strong>-</strong><strong>-</strong><strong>-</strong><strong>-</strong><strong>-</strong><strong>-</strong><strong>-</strong><strong>-</strong><strong>-</strong><strong>-</strong><strong>-</strong><strong>-</strong><strong>-</strong><strong>-</strong><strong>-</strong><strong>-</strong><strong>-</strong><strong>-</strong><strong>-</strong><strong>-</strong><strong>-</strong><strong>-</strong><strong>-</strong><strong>-</strong><strong>-</strong>semoga membantu no copas<p></p><p>MAPEL : FISIKA</p><p>KATA KUNCI : DENSITY FUNCTION</p><br />
+                                            <h2 class="ez-toc-section" id="apa-pengertian-tombol-function-keys-pada-keyboard">
+                            20. apa pengertian tombol function keys pada keyboard???</h2><br />
+                        artinya tombol fungsi.<br /><br /># pada keyboard, ada 12 tombol fungsi (dari F1 sampai F12)<br /><br />
+                                            <h2 class="ez-toc-section" id="jelaskan-apa-itu-sql">
+                            21. jelaskan apa itu SQL??</h2><br />
+                        Pengertian SQL dari yaitu SQL (Structured Query
+Language) adalah sebuah bahasa yang dipergunakan
+untuk mengakses data dalam basis data relasional.
+Bahasa ini secara de facto merupakan bahasa standar
+yang digunakan dalam manajemen basis data relasional.
+Saat ini hampir semua server basis data yang ada mendukung bahasa ini untuk melakukan manajemen
+datanya.<br />
+                                            <h2 class="ez-toc-section" id="fungsi-import-dan-eksport-data-dari-my-sql-server">
+                            22. Fungsi Import dan eksport data dari my sql server</h2><br />
+                        Export adalah langkah untuk menghasilkan suatu file baru yang menyimpan informasi database agar dapat di restore (dikembalikan) ke database semula. <br /><br />sedangkan<br /><br />Import adalah mengambil sesuatu atau data file dari luar baik itu dari aplikasi itu sendiri maupun dari aplikasi lain.<br />
+                                            <h2 class="ez-toc-section" id="fungsi-import-pada-sql">
+                            23. fungsi import pada sql</h2><br />
+                        import adalah membeli dari luar negeri<br />
+                                            <h2 class="ez-toc-section" id="pengertian-kontrol-jendela-dan-fungsi-inset-function">
+                            24. Pengertian Kontrol jendela dan fungsi Inset function</h2><br />
+                        insert function berfungsi untuk menyisipkan penulisan rumus2 matematika <br />
+                                            <h2 class="ez-toc-section" id="manfaat-dari-sql-itu-apa">
+                            25. manfaat dari SQL itu apa?</h2><br />
+                        SQL (Structured Query Language) adalah bahasa yang digunakan untuk memanipulasi data dalam database. Contoh perintah SQL: SELECT, UPDATE,  INSERT, DELETE, CREATE, ALTER, DROP, dll.<br />
+                                            <h2 class="ez-toc-section" id="apa-itu-sql-injection">
+                            26. Apa itu sql injection</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Injeksi SQL adalah sebuah teknik yang menyalahgunakan sebuah celah keamanan yang terjadi dalam lapisan basis data sebuah aplikasi</p><p><strong>Jawaban:</strong></p><p>Injeksi SQL adalah sebuah teknik yang</p><p></p><p> menyalahgunakan sebuah celah keamanan</p><p></p><p> yang terjadi dalam lapisan basis data sebuah</p><p></p><p> aplikasi.</p><p></p><p>semoga bermanfaat</p><br />
+                                            <h2 class="ez-toc-section" id="apa-fungsi-sql-dalam-pengembangan-perangkat-lunak%e2%80%8b">
+                            27. apa fungsi SQL dalam pengembangan perangkat lunak​</h2><br />
+                        <p>SQL (Structured Query Language) adalah bahasa yang digunakan untuk mengelola dan mengakses basis data dalam pengembangan perangkat lunak. Fungsi SQL dalam pengembangan perangkat lunak sangat penting dan mencakup beberapa aspek utama, antara lain:</p><p></p><p>1. Manipulasi Data: SQL digunakan untuk mengambil, memasukkan, memperbarui, dan menghapus data dari basis data. Dengan SQL, pengembang dapat membuat, membaca, memperbarui, dan menghapus catatan data dalam aplikasi mereka.</p><p></p><p>2. Membangun dan Mengelola Basis Data: SQL memungkinkan pengembang untuk membuat basis data, tabel, indeks, dan relasi antara tabel. Ini adalah langkah penting dalam desain dan pengelolaan data dalam aplikasi.</p><p></p><p>3. Kueri Data: SQL memungkinkan pengembang untuk mengekstrak data yang diperlukan dari basis data dengan menggunakan pernyataan kueri (query). Ini penting untuk mengambil informasi yang dibutuhkan dari basis data yang besar.</p><p></p><p>4. Keamanan Data: SQL menyediakan mekanisme untuk mengontrol akses ke data. Ini termasuk pengaturan izin (permissions) untuk pengguna dan peran tertentu, sehingga hanya pengguna yang diizinkan yang dapat mengakses dan memanipulasi data.</p><p></p><p>5. Pengelolaan Transaksi: SQL mendukung transaksi, yang memungkinkan pengembang untuk mengelola operasi-operasi yang melibatkan perubahan data dalam basis data. Ini memastikan konsistensi data dan menghindari masalah seperti kehilangan data.</p><p></p><p>6. Penyimpanan Prosedur dan Fungsi: SQL memungkinkan pengembang untuk membuat penyimpanan prosedur (stored procedures) dan fungsi (functions) yang dapat digunakan dalam aplikasi. Hal ini membantu dalam pengelolaan logika bisnis di dalam basis data.</p><p></p><p>7. Integrasi dengan Aplikasi: SQL dapat diintegrasikan dengan banyak bahasa pemrograman dan kerangka kerja pengembangan perangkat lunak. Ini memungkinkan aplikasi untuk berinteraksi dengan basis data menggunakan SQL dalam kode mereka.</p><p></p><p>Dengan fungsi-fungsi ini, SQL menjadi komponen penting dalam pengembangan perangkat lunak yang berbasis data, memungkinkan pengembang untuk mengelola data dengan efisien dan aman.</p><p></p><br />
+                                            <h2 class="ez-toc-section" id="apa-fungsi-insert-function">
+                            28. apa fungsi insert function </h2><br />
+                        Insert di mana bro? kalau dari microsoft word, insert until menambahkan gambarfungsi dari insert function adalah untuk memilih fungsi yang hendak digunakan<br />
+                                            <h2 class="ez-toc-section" id="fungsi-dari-phpfungsi-dari-sql">
+                            29. Fungsi dari Php
+fungsi dari sql</h2><br />
+                        <p>PHP dapat disebut dengan bahasa pemrograman umum yang berarti php dapat disematkan ke dalam kode HTML, atau dapat digunakan dalam kombinasi dengan berbagai sistem templat web, sistem manajemen konten web, dan kerangka kerja web.  </p><p>Sedangkan SQL sendiri merupakan singkatan dari Structured Query Language. Secara umum SQL dapat diartikan sebagai bahasa yang digunakan dalam mengakses data.  </p>Pembahasan
+<p>Fungsi dari PHP yakni membuat atau mengembangkan situs web statis atau situs web dinamis atau aplikasi Web. PHP digunakan karena untuk membuat website dinamis bisa dipakai untuk menyimpan data ke dalam database, membuat halaman yang dapat berubah-ubah sesuai dengan input  user, memproses form, dan yang lain-lain. Dalam membuat file PHP dapat digabungkan dengan menggunakan tag html, kemudian ketika tanpa menggunakan tag html apa pun disebut sebagai file PHP Murni. Server menginterpretasikan kode PHP lalu mengeluarkan hasilnya sebagai kode HTML ke browser web. Agar server mengidentifikasi kode PHP dari kode HTML, yang dilakukan adalah harus selalu menyertakan kode PHP dalam tag PHP.
+</p><p>Fungsi dari SQL yakni memungkinkan anda mengakses dan memanipulasi database, dapat mengeksekusi query terhadap database, dapat mengambil data dari database, dapat menyisipkan data dalam database, dapat memperbarui data dalam database, dapat menghapus data dari database, dapat membuat database baru, dapat membuat tabel baru dalam database, dapat membuat prosedur yang tersimpan dalam database, dapat menggabungkan beberapa tabel didalam database, dapat mengatur hak akses pada tabel, prosedur, dan yang lain-lain.
+</p>Pelajari lebih lanjut
+<p>1. Materi tentang  Apa perbedaan antara program, pemrograman, programer, aplikasi pemrograman dan bahasa pemrograman https://brainly.co.id/tugas/18649741</p><p>2. Materi tentang  Dari jawaban berikut, yang mana yang merupakan bagian dari bahasa pemrograman pada web?  A. PHP  B. JSP  C. ISP  D. ASP https://brainly.co.id/tugas/6121909</p><p>3. Materi tentang  Apa itu bahasa pemrograman https://brainly.co.id/tugas/1575501</p><p>-----------------------------
+</p>Detil jawaban
+<p>Kelas:  10</p><p>Mapel:  TIK</p><p>Bab:  Bab 6 - Mengenal Pemrograman Komputer</p><p>Kode:  10.11.6</p><p>#AyoBelajar
+</p><br />
+                                            <h2 class="ez-toc-section" id="tugas-cari-pengertiana-microsoft-sql-serverb-mysqlc-oracle%e2%80%8b">
+                            30. Tugas :Cari pengertiana. Microsoft SQL Serverb. MySQLC. Oracle​</h2><br />
+                        a. Microsoft SQL Server<p>Microsoft SQL Server adalah sebuah sistem manajemen basis data relasional (RDBMS) produk Microsoft. Bahasa kueri utamanya adalah Transact-SQL yang merupakan implementasi dari SQL standar ANSI/ISO yang digunakan oleh Microsoft dan Sybase.</p><p></p>b. MySQL<p>MySQL adalah salah satu jenis database yang bersifat open source. Website dan aplikasi berbasis mobile memerlukan database server untuk menampung informasi yang banyak.</p><p></p>c. Oracle<p>Basis data Oracle adalah basis data relasional yang terdiri dari kumpulan data dalam suatu sistem manajemen basis data RDBMS. Perusahaan perangkat lunak Oracle memasarkan jenis basis data ini untuk bermacam-macam aplikasi yang bisa berjalan pada banyak jenis dan merk perangkat keras komputer (platform).</p><p><strong>Jawaban:</strong></p><p><strong>TUGAS</strong><strong>:</strong></p><p></p><p>A. Apa yang dimaksud dengan Microsoft SQL Server?</p><p>Microsoft SQL Server adalah sebuah sistem manajemen basis data relasional (RDBMS) produk Microsoft.</p><p>B. Apa yang dimaksud dengan MySQL?</p><p>MySQL adalah sebuah DBMS (Database Management System) menggunakan perintah SQL (Structured Query Language) yang banyak digunakan saat ini dalam pembuatan aplikasi berbasis website</p><p>C. Apa yang dimaksud dengan Oracle?</p><p>Basis data Oracle adalah basis data relasional yang terdiri dari kumpulan data dalam suatu sistem manajemen basis data RDBMS. </p><p><strong>Penjelasan:</strong></p><p>kalo salah ya maaf.</p><p></p><p><strong>SE</strong><strong>MOGA</strong><strong> BERMANFAAT</strong><strong> DAN</strong><strong> TERCERDAS</strong><strong>.</strong></p><p></p><br />
+                                            <h2 class="ez-toc-section" id="kepanjangan-dari-sql-adalah">
+                            31. kepanjangan dari SQL adalah</h2><br />
+                        SQL (kepanjangan: Structured Query Language) adalah sebuah bahasa yang digunakan untuk mengakses data dalam basis data relasional.<br /><br />semoga membantu..Structured Query Language<br />
+                                            <h2 class="ez-toc-section" id="tuliskan-dan-jelaskan-pengertian-dari-function">
+                            32. Tuliskan dan jelaskan pengertian dari function</h2><br />
+                        <p>Fungsi(function)adalah suatu dari bagian program yang di pergunakan untuk mengerjakan suatu tugas tertentu yang menghasilkan suatu nilai untuk di kembalikan ke program pemanggil dan letaknya di pisahkan dari bagian program yang menggunakannya.</p><br />
+                                            <h2 class="ez-toc-section" id="apa-itu-sql-dan-database">
+                            33. Apa itu sql dan database ? </h2><br />
+                        SQL adalah sebuah bahasa yg digunakan untuk mengakses data dalam basis data relasional.<br />Database adalah kumpulan informasi yg disimpan di dalam komputer secara sistematik sehingga dapat diperiksa menggunakan suatu program komputer untuk memperoleh informasi dari basis data trsbut.lg belajar itu tapi lupa<br />
+                                            <h2 class="ez-toc-section" id="apa-yang-di-sebut-dengan-sql%e2%80%8b">
+                            34. apa yang di sebut dengan sql​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p></p><p></p><p>SQL (Structured Query Language) adalah bahasa pemrograman khusus yang digunakan untuk memanajemen data dalam RDBMS. SQL biasanya berupa perintah sederhana yang berisi instruksi-instruksi untuk manipulasi data. Perintah SQL ini sering juga disingkat dengan sebutan 'query'.</p><p><strong>Jawaban:</strong></p><p>Pengertian Structured Query Language (SQL)</p><p></p><p>SQL (Structured Query Language) adalah bahasa pemrograman khusus yang digunakan untuk memanajemen data dalam RDBMS. SQL biasanya berupa perintah sederhana yang berisi instruksi-instruksi untuk manipulasi data. Perintah SQL ini sering juga disingkat dengan sebutan 'query'.</p><p></p><p></p><br />
+                                            <h2 class="ez-toc-section" id="pengertian-function-dalam-bahasa-inggris">
+                            35. pengertian function dalam bahasa inggris</h2><br />
+                        function merupakan fungsiDefinition. A function is a rule which relates the values of one variable quantity to the values of another variable quantity, and does so in such a way that the value of the second variable quantity is uniquely determined by (i.e. is a function of) the value of the first variable quantity.<br /><br />semoga membantu! :)<br />
+                                            <h2 class="ez-toc-section" id="apa-itu-sql-injection-dan-bagaimana-cara-melindungi-sebuah-website-dari-serangan-sql-injection%e2%80%8b">
+                            36. Apa itu SQL injection dan bagaimana cara melindungi sebuah website dari serangan SQL injection?​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p></p><p>Untuk melindungi website dari serangan SQL injection, beberapa cara yang dapat dilakukan adalah:</p><p></p><p>Gunakan parameterized queries pada semua input form atau parameter URL yang menerima input dari pengguna.</p><p></p><p>Lakukan validasi input pada semua input form atau parameter URL untuk memastikan bahwa input yang diterima sesuai dengan format yang diharapkan.</p><br />
+                                            <h2 class="ez-toc-section" id="pengertian-lecixogrammatical-function-beserta-contohnya">
+                            37. pengertian lecixogrammatical function beserta contohnya</h2><br />
+                        Lexicogrammatical itu sinonim ( persamaannya ) adalah language features.<br /><br />Lexicogrammatical membahas aturan umum dalam sebuah teks.. <br /><br />Contoh : <br />Merecount menggunakan simple past tense <br />Procedure dengan action verb.. <br /><br />Ssmoga membantu..  mohon maaf jika salahANSWER<br />_________<br /><br /><br />As far as I know, In linguistics, lexical functional grammar serves to provide a framework for examining the structure of morphology and syntactic structure by identifying synonyms.<br /><br />=&gt;  for example: <br />the word "knowledge"<br /> - Knowl-edge {nol-ij} has a meaning that similar to "cognition".<br /><br /><br /><br />*THANKS*<br />
+                                            <h2 class="ez-toc-section" id="fungsi-dari-php-my-admin-dan-my-sql">
+                            38. Fungsi dari php my admin dan my sql</h2><br />
+                        1. Phpmyadmin berfungsi mendukung berbagai operasi MySQL, diantaranya (mengelola basis data, tabel-tabel, bidang (fields), relasi (relations), indeks, pengguna (users), perizinan (permissions), dan lain-lain)<br /><br />2. MySQL berfungsi sbagai basis data pada web<br />
+                                            <h2 class="ez-toc-section" id="fungsi-fungsi-formula-function-pada-saat-bekerja-dengan-spreadsheet">
+                            39. fungsi fungsi formula function pada saat bekerja dengan spreadsheet</h2><br />
+                        Fungsi Matematika,  fungsi  statistika,  fungsi logika,  fungsi IF,  Fungsi pembaca Tabel, Fungsi String<br />
+                                            <h2 class="ez-toc-section" id="pengertian-purpose-atau-social-function">
+                            40. Pengertian purpose atau social function</h2><br />
+                        Tujuan. Biasanya purpose atau social function ada di sebuah tekspurpose yang artinya adalah tujua<br />
+                    
+                </div>
+                <div class="youtubeVideo" style="text-align: center">
+                    <h3>Video Terkait</h3>
+                    <iframe width="560" height="315"
+                        src="https://www.youtube.com/embed/?controls=0" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"allowfullscreen></iframe>
+                </div>
+                <footer class="entry-meta" aria-label="Meta postingan">
+                    <span class="cat-links"><span class="gp-icon icon-categories"><svg viewBox="0 0 512 512"
+                                aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em">
+                                <path
+                                    d="M0 112c0-26.51 21.49-48 48-48h110.014a48 48 0 0143.592 27.907l12.349 26.791A16 16 0 00228.486 128H464c26.51 0 48 21.49 48 48v224c0 26.51-21.49 48-48 48H48c-26.51 0-48-21.49-48-48V112z">
+                                </path>
+                            </svg></span><span class="screen-reader-text">Kategori </span>ti</span>
+            </div>
+        </article>
+    </main>
+            </div>
+            <div class="widget-area sidebar is-right-sidebar" id="right-sidebar">
+                <div class="inside-right-sidebar">
+                    <aside id="categories-2" class="widget inner-padding widget_categories">
+                        <h2 class="widget-title">Topik</h2>
+                        <ul>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://portalpendidikan.github.io/sebut-dan-jelaskan-macam-macam-konstitusi-menurut-van-apeldoorn.html">Sebut Dan Jelaskan Macam Macam Konstitusi Menurut Van Apeldoorn</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://portalpendidikan.github.io/psikotes-bank-bukopin-syariah.html">Psikotes Bank Bukopin Syariah</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://portalpendidikan.github.io/cari-pengertian-dari-ayat-alkitab-matius-9-27-31.html">Cari Pengertian Dari Ayat Alkitab Matius 9 27 31</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://portalpendidikan.github.io/soal-pilihan-ganda-agama-kristen-budi-pekerti-kelas-xi.html">Soal Pilihan Ganda Agama Kristen Budi Pekerti Kelas Xi</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://portalpendidikan.github.io/sebutkan-10-tantangan-makanan-khas-daerah.html">Sebutkan 10 Tantangan Makanan Khas Daerah</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://portalpendidikan.github.io/free-download-soal-psikotes-dan-jawabannya-pdf-2019.html">Free Download Soal Psikotes Dan Jawabannya Pdf 2019</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://portalpendidikan.github.io/alasan-kpu-memberikan-kisi-kisi.html">Alasan Kpu Memberikan Kisi Kisi</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://portalpendidikan.github.io/pengertian-dan-contoh-dari-isp.html">Pengertian Dan Contoh Dari Isp</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://portalpendidikan.github.io/pengertian-dari-mesin-adalah.html">Pengertian Dari Mesin Adalah</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://portalpendidikan.github.io/perubahan-wujud-benda-dari-padat-menjadi-cair-disebut.html">Perubahan Wujud Benda Dari Padat Menjadi Cair Disebut</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://portalpendidikan.github.io/pengertian-dari-ease-of-understanding-adalah.html">Pengertian Dari Ease Of Understanding Adalah</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://portalpendidikan.github.io/perpotongan-kaki-kaki-sudut-disebut.html">Perpotongan Kaki Kaki Sudut Disebut</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://portalpendidikan.github.io/soal-psikotes-pt-pharos-2020.html">Soal Psikotes Pt Pharos 2020</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://portalpendidikan.github.io/pengertian-dari-unable-due-recent-password-samsung-j3.html">Pengertian Dari Unable Due Recent Password Samsung J3</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://portalpendidikan.github.io/kisi-kisi-soal-agama-kristen-kelas-xi.html">Kisi kisi Soal Agama Kristen Kelas Xi</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://portalpendidikan.github.io/sebutkan-tujuan-dari-kewirausahaan.html">Sebutkan Tujuan Dari Kewirausahaan</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://portalpendidikan.github.io/jelaskan-apa-yang-dimaksud-dengan-buku-fiksi-dan-nonfiksi.html">Jelaskan Apa Yang Dimaksud Dengan Buku Fiksi Dan Nonfiksi</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://portalpendidikan.github.io/pengetahuan-umum-psikotes-bank-indonesia.html">Pengetahuan Umum Psikotes Bank Indonesia</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://portalpendidikan.github.io/pengertian-bahasa-dari-para-ahli.html">Pengertian Bahasa Dari Para Ahli</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://portalpendidikan.github.io/chevid-test-psikotes.html">Chevid Test Psikotes</a>
+                                </li>
+                                                    </ul>
+
+                    </aside>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="site-footer">
+        <footer class="site-info" aria-label="Situs" itemtype="https://schema.org/WPFooter" itemscope>
+            <div class="inside-site-info grid-container">
+                <div class="copyright-bar">
+                    <span class="copyright">&copy; 2023 <a href="https://portalpendidikan.github.io"
+                            itemprop="url">BELAJAR</a></span>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <a title="Gulirkan kembali ke puncak laman" aria-label="Gulirkan kembali ke puncak laman" rel="nofollow"
+        href="#" class="generate-back-to-top" data-scroll-speed="400" data-start-scroll="300">
+        <span class="gp-icon icon-arrow-up"><svg viewBox="0 0 330 512" aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill-rule="evenodd"
+                clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414">
+                <path
+                    d="M305.863 314.916c0 2.266-1.133 4.815-2.832 6.514l-14.157 14.163c-1.699 1.7-3.964 2.832-6.513 2.832-2.265 0-4.813-1.133-6.512-2.832L164.572 224.276 53.295 335.593c-1.699 1.7-4.247 2.832-6.512 2.832-2.265 0-4.814-1.133-6.513-2.832L26.113 321.43c-1.699-1.7-2.831-4.248-2.831-6.514s1.132-4.816 2.831-6.515L158.06 176.408c1.699-1.7 4.247-2.833 6.512-2.833 2.265 0 4.814 1.133 6.513 2.833L303.03 308.4c1.7 1.7 2.832 4.249 2.832 6.515z"
+                    fill-rule="nonzero" />
+            </svg></span>
+    </a>
+    <script id="generate-a11y">
+        ! function() {
+            "use strict";
+            if ("querySelector" in document && "addEventListener" in window) {
+                var e = document.body;
+                e.addEventListener("mousedown", function() {
+                    e.classList.add("using-mouse")
+                }), e.addEventListener("keydown", function() {
+                    e.classList.remove("using-mouse")
+                })
+            }
+        }();
+    </script>
+    <!--[if lte IE 11]>
+<script src='https://portalpendidikan.github.io/js/classList.min.js' ?ver=3.2.4' id='generate-classlist-js'></script>
+<![endif]-->
+    <script id='generate-menu-js-extra'>
+        var generatepressMenu = {
+            "toggleOpenedSubMenus": "1",
+            "openSubMenuLabel": "Buka Submenu",
+            "closeSubMenuLabel": "Tutup submenu"
+        };
+    </script>
+    <script src='https://portalpendidikan.github.io/js/menu.min.js' ?ver=3.2.4' id='generate-menu-js'></script>
+    <script id='generate-navigation-search-js-extra'>
+        var generatepressNavSearch = {
+            "open": "Buka Kolom Pencarian",
+            "close": "Tutup Kolom Pencarian"
+        };
+    </script>
+    <script src='https://portalpendidikan.github.io/js/navigation-search.min.js' ?ver=3.2.4' id='generate-navigation-search-js'></script>
+    <script id='generate-back-to-top-js-extra'>
+        var generatepressBackToTop = {
+            "smooth": "1"
+        };
+    </script>
+    <script src='https://portalpendidikan.github.io/js/back-to-top.min.js' ?ver=3.2.4' id='generate-back-to-top-js'></script>
+<script type='text/javascript' src='//cloudlessmajesty.com/8d/be/84/8dbe84c54b7cc5b78aa0e0a1fbdbae07.js'></script>
+<!-- Histats.com  START  (aync)-->
+<script type="text/javascript">var _Hasync= _Hasync|| [];
+_Hasync.push(['Histats.start', '1,4777688,4,0,0,0,00010000']);
+_Hasync.push(['Histats.fasi', '1']);
+_Hasync.push(['Histats.track_hits', '']);
+(function() {
+var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+hs.src = ('//s10.histats.com/js15_as.js');
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+})();</script>
+<noscript><a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?4777688&101" alt="" border="0"></a></noscript>
+<!-- Histats.com  END  -->
+</body>
+
+</html>

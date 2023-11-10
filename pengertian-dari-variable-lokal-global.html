@@ -1,0 +1,1361 @@
+<!DOCTYPE html>
+<html lang="id" prefix="og: https://ogp.me/ns#">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="profile" href="https://gmpg.org/xfn/11">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pengertian Dari Variable Lokal Global - BELAJAR</title>
+    <meta name="description" content="Pengertian Dari Variable Lokal Global, , , , , , , 0, , , , , , 0, pengertian-dari-variable-lokal-global, BELAJAR" />
+    <meta name="robots" content="index,follow" />
+    <meta property="og:locale" content="id_ID" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Pengertian Dari Variable Lokal Global - BELAJAR" />
+    <meta property="og:description" content="Pengertian Dari Variable Lokal Global, , , , , , , 0, , , , , , 0, pengertian-dari-variable-lokal-global, BELAJAR" />
+    <meta property="og:site_name" content="BELAJAR" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Pengertian Dari Variable Lokal Global - BELAJAR" />
+    <meta name="twitter:description" content="Pengertian Dari Variable Lokal Global, , , , , , , 0, , , , , , 0, pengertian-dari-variable-lokal-global, BELAJAR" />
+    <link rel='stylesheet' id='generate-style-css' href='https://portalpendidikan.github.io/css/main.min.css'?ver=3.2.4'
+        media='all' />
+    <link rel='stylesheet' id='ez-toc-css' href='https://portalpendidikan.github.io/css/screen.min.css'?ver=2.0.40' media='all' />
+    <style id='generate-style-inline-css'>
+        body {
+            background-color: #f7f7f7;
+            color: #222222;
+        }
+
+        a {
+            color: #1e73be;
+        }
+
+        a:hover,
+        a:focus,
+        a:active {
+            color: #000000;
+        }
+
+        .wp-block-group__inner-container {
+            max-width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .generate-back-to-top {
+            font-size: 20px;
+            border-radius: 3px;
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            line-height: 40px;
+            width: 40px;
+            text-align: center;
+            z-index: 10;
+            transition: opacity 300ms ease-in-out;
+            opacity: 0.1;
+            transform: translateY(1000px);
+        }
+
+        .generate-back-to-top__show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .navigation-search {
+            position: absolute;
+            left: -99999px;
+            pointer-events: none;
+            visibility: hidden;
+            z-index: 20;
+            width: 100%;
+            top: 0;
+            transition: opacity 100ms ease-in-out;
+            opacity: 0;
+        }
+
+        .navigation-search.nav-search-active {
+            left: 0;
+            right: 0;
+            pointer-events: auto;
+            visibility: visible;
+            opacity: 1;
+        }
+
+        .navigation-search input[type="search"] {
+            outline: 0;
+            border: 0;
+            vertical-align: bottom;
+            line-height: 1;
+            opacity: 0.9;
+            width: 100%;
+            z-index: 20;
+            border-radius: 0;
+            -webkit-appearance: none;
+            height: 60px;
+        }
+
+        .navigation-search input::-ms-clear {
+            display: none;
+            width: 0;
+            height: 0;
+        }
+
+        .navigation-search input::-ms-reveal {
+            display: none;
+            width: 0;
+            height: 0;
+        }
+
+        .navigation-search input::-webkit-search-decoration,
+        .navigation-search input::-webkit-search-cancel-button,
+        .navigation-search input::-webkit-search-results-button,
+        .navigation-search input::-webkit-search-results-decoration {
+            display: none;
+        }
+
+        .gen-sidebar-nav .navigation-search {
+            top: auto;
+            bottom: 0;
+        }
+
+        :root {
+            --contrast: #222222;
+            --contrast-2: #575760;
+            --contrast-3: #b2b2be;
+            --base: #f0f0f0;
+            --base-2: #f7f8f9;
+            --base-3: #ffffff;
+            --accent: #1e73be;
+        }
+
+        .has-contrast-color {
+            color: var(--contrast);
+        }
+
+        .has-contrast-background-color {
+            background-color: var(--contrast);
+        }
+
+        .has-contrast-2-color {
+            color: var(--contrast-2);
+        }
+
+        .has-contrast-2-background-color {
+            background-color: var(--contrast-2);
+        }
+
+        .has-contrast-3-color {
+            color: var(--contrast-3);
+        }
+
+        .has-contrast-3-background-color {
+            background-color: var(--contrast-3);
+        }
+
+        .has-base-color {
+            color: var(--base);
+        }
+
+        .has-base-background-color {
+            background-color: var(--base);
+        }
+
+        .has-base-2-color {
+            color: var(--base-2);
+        }
+
+        .has-base-2-background-color {
+            background-color: var(--base-2);
+        }
+
+        .has-base-3-color {
+            color: var(--base-3);
+        }
+
+        .has-base-3-background-color {
+            background-color: var(--base-3);
+        }
+
+        .has-accent-color {
+            color: var(--accent);
+        }
+
+        .has-accent-background-color {
+            background-color: var(--accent);
+        }
+
+        body,
+        button,
+        input,
+        select,
+        textarea {
+            font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        }
+
+        body {
+            line-height: 1.5;
+        }
+
+        .entry-content>[class*="wp-block-"]:not(:last-child) {
+            margin-bottom: 1.5em;
+        }
+
+        .main-navigation .main-nav ul ul li a {
+            font-size: 14px;
+        }
+
+        .sidebar .widget,
+        .footer-widgets .widget {
+            font-size: 17px;
+        }
+
+        @media (max-width:768px) {
+            h1 {
+                font-size: 31px;
+            }
+
+            h2 {
+                font-size: 27px;
+            }
+
+            h3 {
+                font-size: 24px;
+            }
+
+            h4 {
+                font-size: 22px;
+            }
+
+            h5 {
+                font-size: 19px;
+            }
+        }
+
+        .top-bar {
+            background-color: #636363;
+            color: #ffffff;
+        }
+
+        .top-bar a {
+            color: #ffffff;
+        }
+
+        .top-bar a:hover {
+            color: #303030;
+        }
+
+        .site-header {
+            background-color: #ffffff;
+        }
+
+        .main-title a,
+        .main-title a:hover {
+            color: #222222;
+        }
+
+        .site-description {
+            color: #757575;
+        }
+
+        .main-navigation,
+        .main-navigation ul ul {
+            background-color: #ed4250;
+        }
+
+        .main-navigation .main-nav ul li a,
+        .main-navigation .menu-toggle,
+        .main-navigation .menu-bar-items {
+            color: #ffffff;
+        }
+
+        .main-navigation .main-nav ul li:not([class*="current-menu-"]):hover>a,
+        .main-navigation .main-nav ul li:not([class*="current-menu-"]):focus>a,
+        .main-navigation .main-nav ul li.sfHover:not([class*="current-menu-"])>a,
+        .main-navigation .menu-bar-item:hover>a,
+        .main-navigation .menu-bar-item.sfHover>a {
+            color: #ffffff;
+            background-color: #c42f2f;
+        }
+
+        button.menu-toggle:hover,
+        button.menu-toggle:focus {
+            color: #ffffff;
+        }
+
+        .main-navigation .main-nav ul li[class*="current-menu-"]>a {
+            color: #ffffff;
+            background-color: #c42f2f;
+        }
+
+        .navigation-search input[type="search"],
+        .navigation-search input[type="search"]:active,
+        .navigation-search input[type="search"]:focus,
+        .main-navigation .main-nav ul li.search-item.active>a,
+        .main-navigation .menu-bar-items .search-item.active>a {
+            color: #ffffff;
+            background-color: #c42f2f;
+        }
+
+        .main-navigation ul ul {
+            background-color: #c42f2f;
+        }
+
+        .main-navigation .main-nav ul ul li a {
+            color: #ffffff;
+        }
+
+        .main-navigation .main-nav ul ul li:not([class*="current-menu-"]):hover>a,
+        .main-navigation .main-nav ul ul li:not([class*="current-menu-"]):focus>a,
+        .main-navigation .main-nav ul ul li.sfHover:not([class*="current-menu-"])>a {
+            color: #fcd9d6;
+            background-color: #c42f2f;
+        }
+
+        .main-navigation .main-nav ul ul li[class*="current-menu-"]>a {
+            color: #fcd9d6;
+            background-color: #c42f2f;
+        }
+
+        .separate-containers .inside-article,
+        .separate-containers .comments-area,
+        .separate-containers .page-header,
+        .one-container .container,
+        .separate-containers .paging-navigation,
+        .inside-page-header {
+            background-color: #ffffff;
+        }
+
+        .entry-title a {
+            color: #222222;
+        }
+
+        .entry-title a:hover {
+            color: #55555e;
+        }
+
+        .entry-meta {
+            color: #595959;
+        }
+
+        .sidebar .widget {
+            background-color: #ffffff;
+        }
+
+        .footer-widgets {
+            background-color: #ffffff;
+        }
+
+        .footer-widgets .widget-title {
+            color: #000000;
+        }
+
+        .site-info {
+            color: #ffffff;
+            background-color: #55555e;
+        }
+
+        .site-info a {
+            color: #ffffff;
+        }
+
+        .site-info a:hover {
+            color: #d3d3d3;
+        }
+
+        .footer-bar .widget_nav_menu .current-menu-item a {
+            color: #d3d3d3;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="url"],
+        input[type="password"],
+        input[type="search"],
+        input[type="tel"],
+        input[type="number"],
+        textarea,
+        select {
+            color: #666666;
+            background-color: #fafafa;
+            border-color: #cccccc;
+        }
+
+        input[type="text"]:focus,
+        input[type="email"]:focus,
+        input[type="url"]:focus,
+        input[type="password"]:focus,
+        input[type="search"]:focus,
+        input[type="tel"]:focus,
+        input[type="number"]:focus,
+        textarea:focus,
+        select:focus {
+            color: #666666;
+            background-color: #ffffff;
+            border-color: #bfbfbf;
+        }
+
+        button,
+        html input[type="button"],
+        input[type="reset"],
+        input[type="submit"],
+        a.button,
+        a.wp-block-button__link:not(.has-background) {
+            color: #ffffff;
+            background-color: #55555e;
+        }
+
+        button:hover,
+        html input[type="button"]:hover,
+        input[type="reset"]:hover,
+        input[type="submit"]:hover,
+        a.button:hover,
+        button:focus,
+        html input[type="button"]:focus,
+        input[type="reset"]:focus,
+        input[type="submit"]:focus,
+        a.button:focus,
+        a.wp-block-button__link:not(.has-background):active,
+        a.wp-block-button__link:not(.has-background):focus,
+        a.wp-block-button__link:not(.has-background):hover {
+            color: #ffffff;
+            background-color: #3f4047;
+        }
+
+        a.generate-back-to-top {
+            background-color: rgba(0, 0, 0, 0.4);
+            color: #ffffff;
+        }
+
+        a.generate-back-to-top:hover,
+        a.generate-back-to-top:focus {
+            background-color: rgba(0, 0, 0, 0.6);
+            color: #ffffff;
+        }
+
+        @media (max-width:768px) {
+
+            .main-navigation .menu-bar-item:hover>a,
+            .main-navigation .menu-bar-item.sfHover>a {
+                background: none;
+                color: #ffffff;
+            }
+        }
+
+        .nav-below-header .main-navigation .inside-navigation.grid-container,
+        .nav-above-header .main-navigation .inside-navigation.grid-container {
+            padding: 0px 20px 0px 20px;
+        }
+
+        .site-main .wp-block-group__inner-container {
+            padding: 40px;
+        }
+
+        .separate-containers .paging-navigation {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        .entry-content .alignwide,
+        body:not(.no-sidebar) .entry-content .alignfull {
+            margin-left: -40px;
+            width: calc(100% + 80px);
+            max-width: calc(100% + 80px);
+        }
+
+        .rtl .menu-item-has-children .dropdown-menu-toggle {
+            padding-left: 20px;
+        }
+
+        .rtl .main-navigation .main-nav ul li.menu-item-has-children>a {
+            padding-right: 20px;
+        }
+
+        @media (max-width:768px) {
+
+            .separate-containers .inside-article,
+            .separate-containers .comments-area,
+            .separate-containers .page-header,
+            .separate-containers .paging-navigation,
+            .one-container .site-content,
+            .inside-page-header {
+                padding: 30px;
+            }
+
+            .site-main .wp-block-group__inner-container {
+                padding: 30px;
+            }
+
+            .inside-top-bar {
+                padding-right: 30px;
+                padding-left: 30px;
+            }
+
+            .inside-header {
+                padding-right: 30px;
+                padding-left: 30px;
+            }
+
+            .widget-area .widget {
+                padding-top: 30px;
+                padding-right: 30px;
+                padding-bottom: 30px;
+                padding-left: 30px;
+            }
+
+            .footer-widgets-container {
+                padding-top: 30px;
+                padding-right: 30px;
+                padding-bottom: 30px;
+                padding-left: 30px;
+            }
+
+            .inside-site-info {
+                padding-right: 30px;
+                padding-left: 30px;
+            }
+
+            .entry-content .alignwide,
+            body:not(.no-sidebar) .entry-content .alignfull {
+                margin-left: -30px;
+                width: calc(100% + 60px);
+                max-width: calc(100% + 60px);
+            }
+
+            .one-container .site-main .paging-navigation {
+                margin-bottom: 20px;
+            }
+        }
+
+        /* End cached CSS */
+        .is-right-sidebar {
+            width: 30%;
+        }
+
+        .is-left-sidebar {
+            width: 30%;
+        }
+
+        .site-content .content-area {
+            width: 70%;
+        }
+
+        @media (max-width:768px) {
+
+            .main-navigation .menu-toggle,
+            .sidebar-nav-mobile:not(#sticky-placeholder) {
+                display: block;
+            }
+
+            .main-navigation ul,
+            .gen-sidebar-nav,
+            .main-navigation:not(.slideout-navigation):not(.toggled) .main-nav>ul,
+            .has-inline-mobile-toggle #site-navigation .inside-navigation>*:not(.navigation-search):not(.main-nav) {
+                display: none;
+            }
+
+            .nav-align-right .inside-navigation,
+            .nav-align-center .inside-navigation {
+                justify-content: space-between;
+            }
+        }
+    </style>
+    <link rel="icon" href="https://portalpendidikan.github.io/img/cropped-soalbelajar-32x32.png" sizes="32x32" />
+    <link rel="icon" href="https://portalpendidikan.github.io/img/cropped-soalbelajar-192x192.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="https://portalpendidikan.github.io/img/cropped-soalbelajar-180x180.png" />
+    <meta name="msapplication-TileImage" content="https://portalpendidikan.github.io/img/cropped-soalbelajar-270x270.png" />
+</head>
+
+<body
+    class="home blog wp-custom-logo wp-embed-responsive right-sidebar nav-above-header separate-containers nav-search-enabled nav-aligned-center header-aligned-center dropdown-hover"
+    itemtype="https://schema.org/Blog" itemscope>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-dark-grayscale">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 0.49803921568627" />
+                    <feFuncG type="table" tableValues="0 0.49803921568627" />
+                    <feFuncB type="table" tableValues="0 0.49803921568627" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-grayscale">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 1" />
+                    <feFuncG type="table" tableValues="0 1" />
+                    <feFuncB type="table" tableValues="0 1" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-purple-yellow">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.54901960784314 0.98823529411765" />
+                    <feFuncG type="table" tableValues="0 1" />
+                    <feFuncB type="table" tableValues="0.71764705882353 0.25490196078431" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-blue-red">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 1" />
+                    <feFuncG type="table" tableValues="0 0.27843137254902" />
+                    <feFuncB type="table" tableValues="0.5921568627451 0.27843137254902" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-midnight">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 0" />
+                    <feFuncG type="table" tableValues="0 0.64705882352941" />
+                    <feFuncB type="table" tableValues="0 1" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-magenta-yellow">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.78039215686275 1" />
+                    <feFuncG type="table" tableValues="0 0.94901960784314" />
+                    <feFuncB type="table" tableValues="0.35294117647059 0.47058823529412" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-purple-green">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.65098039215686 0.40392156862745" />
+                    <feFuncG type="table" tableValues="0 1" />
+                    <feFuncB type="table" tableValues="0.44705882352941 0.4" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-blue-orange">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.098039215686275 1" />
+                    <feFuncG type="table" tableValues="0 0.66274509803922" />
+                    <feFuncB type="table" tableValues="0.84705882352941 0.41960784313725" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><a class="screen-reader-text skip-link" href="#content" title="Langsung ke isi">Langsung ke isi</a>
+    <nav class="main-navigation nav-align-center has-menu-bar-items sub-menu-right" id="site-navigation"
+        aria-label="Utama" itemtype="https://schema.org/SiteNavigationElement" itemscope>
+        <div class="inside-navigation grid-container">
+            <form method="get" class="search-form navigation-search" action="/">
+                <input type="search" class="search-field" value="" name="q" title="Cari" />
+            </form> <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
+                <span class="gp-icon icon-menu-bars"><svg viewBox="0 0 512 512" aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg" width="1em" height="1em">
+                        <path
+                            d="M0 96c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24zm0 160c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24zm0 160c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24z" />
+                    </svg><svg viewBox="0 0 512 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                        width="1em" height="1em">
+                        <path
+                            d="M71.029 71.029c9.373-9.372 24.569-9.372 33.942 0L256 222.059l151.029-151.03c9.373-9.372 24.569-9.372 33.942 0 9.372 9.373 9.372 24.569 0 33.942L289.941 256l151.03 151.029c9.372 9.373 9.372 24.569 0 33.942-9.373 9.372-24.569 9.372-33.942 0L256 289.941l-151.029 151.03c-9.373 9.372-24.569 9.372-33.942 0-9.372-9.373-9.372-24.569 0-33.942L222.059 256 71.029 104.971c-9.372-9.373-9.372-24.569 0-33.942z" />
+                    </svg></span><span class="mobile-menu">Menu</span> </button>
+            <div id="primary-menu" class="main-nav">
+                <ul id="menu-soal-belajar" class=" menu sf-menu">
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1"><a
+                            href="https://portalpendidikan.github.io">Home</a></li>
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2"><a
+                            href="https://portalpendidikan.github.io/page/dmca.html">DMCA</a></li>
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3"><a
+                            href="https://portalpendidikan.github.io/page/privacy-policy.html">Privacy Policy</a></li>
+                </ul>
+                </ul>
+            </div>
+            <div class="menu-bar-items"><span class="menu-bar-item search-item"><a aria-label="Buka Kolom Pencarian"
+                        href="#"><span class="gp-icon icon-search"><svg viewBox="0 0 512 512"
+                                aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M208 48c-88.366 0-160 71.634-160 160s71.634 160 160 160 160-71.634 160-160S296.366 48 208 48zM0 208C0 93.125 93.125 0 208 0s208 93.125 208 208c0 48.741-16.765 93.566-44.843 129.024l133.826 134.018c9.366 9.379 9.355 24.575-.025 33.941-9.379 9.366-24.575 9.355-33.941-.025L337.238 370.987C301.747 399.167 256.839 416 208 416 93.125 416 0 322.875 0 208z" />
+                            </svg><svg viewBox="0 0 512 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                                width="1em" height="1em">
+                                <path
+                                    d="M71.029 71.029c9.373-9.372 24.569-9.372 33.942 0L256 222.059l151.029-151.03c9.373-9.372 24.569-9.372 33.942 0 9.372 9.373 9.372 24.569 0 33.942L289.941 256l151.03 151.029c9.372 9.373 9.372 24.569 0 33.942-9.373 9.372-24.569 9.372-33.942 0L256 289.941l-151.029 151.03c-9.373 9.372-24.569 9.372-33.942 0-9.372-9.373-9.372-24.569 0-33.942L222.059 256 71.029 104.971c-9.372-9.373-9.372-24.569 0-33.942z" />
+                            </svg></span></a></span></div>
+        </div>
+    </nav>
+    <header class="site-header grid-container" id="masthead" aria-label="Situs"
+        itemtype="https://schema.org/WPHeader" itemscope>
+        <div class="inside-header grid-container">
+            <h1 class="site-logo">
+                <a href="https://portalpendidikan.github.io" rel="home"> BELAJAR</a>
+            </h1>
+        </div>
+    </header>
+
+    <div class="site grid-container container hfeed" id="page">
+        <div class="site-content" id="content">
+            <div class="content-area" id="primary">
+                    <main class="site-main" id="main">
+        <article id="post-1327" class="post-1327 post type-post status-publish format-standard hentry category-info"
+            itemtype="https://schema.org/CreativeWork" itemscope="">
+            <div class="inside-article">
+                <header class="entry-header" aria-label="Konten">
+                    <h1 class="entry-title" itemprop="headline">Pengertian Dari Variable Lokal Global</h1>
+                    <div class="entry-meta">
+                       <span
+                            class="byline">oleh <span class="author vcard" itemprop="author"
+                                itemtype="https://schema.org/Person" itemscope=""><span class="author-name"
+                                    itemprop="name">salza176</span></span></span>
+                    </div>
+                </header>
+                <div class="entry-content" itemprop="text">
+                    <div style="text-align: center">
+                        <img src="https://tse1.mm.bing.net/th?q=Pengertian+Dari+Variable+Lokal+Global" alt="Pengertian Dari Variable Lokal Global">
+                    </div>
+                    <p></p>
+                    <p>apa pengertian dari : berfikir global bertindak lokal</p>
+                    <div id="ez-toc-container"
+                        class="ez-toc-v2_0_40 counter-hierarchy ez-toc-counter ez-toc-light-blue ez-toc-container-direction">
+                        <div class="ez-toc-title-container">
+                            <p class="ez-toc-title">Daftar Isi</p>
+                            <span class="ez-toc-title-toggle"><a href="#"
+                                    class="ez-toc-pull-right ez-toc-btn ez-toc-btn-xs ez-toc-btn-default ez-toc-toggle"
+                                    area-label="ez-toc-toggle-icon-1"><label for="item-63b392361c4a0"
+                                        aria-label="Table of Content"><span
+                                            style="display: flex;align-items: center;width: 35px;height: 30px;justify-content: center;direction:ltr;"><svg
+                                                style="fill: #999;color:#999" xmlns="http://www.w3.org/2000/svg"
+                                                class="list-377408" width="20px" height="20px" viewBox="0 0 24 24"
+                                                fill="none">
+                                                <path
+                                                    d="M6 6H4v2h2V6zm14 0H8v2h12V6zM4 11h2v2H4v-2zm16 0H8v2h12v-2zM4 16h2v2H4v-2zm16 0H8v2h12v-2z"
+                                                    fill="currentColor"></path>
+                                            </svg><svg style="fill: #999;color:#999" class="arrow-unsorted-368013"
+                                                xmlns="http://www.w3.org/2000/svg" width="10px" height="10px"
+                                                viewBox="0 0 24 24" version="1.2" baseProfile="tiny">
+                                                <path
+                                                    d="M18.2 9.3l-6.2-6.3-6.2 6.3c-.2.2-.3.4-.3.7s.1.5.3.7c.2.2.4.3.7.3h11c.3 0 .5-.1.7-.3.2-.2.3-.5.3-.7s-.1-.5-.3-.7zM5.8 14.7l6.2 6.3 6.2-6.3c.2-.2.3-.5.3-.7s-.1-.5-.3-.7c-.2-.2-.4-.3-.7-.3h-11c-.3 0-.5.1-.7.3-.2.2-.3.5-.3.7s.1.5.3.7z">
+                                                </path>
+                                            </svg></span></label><input type="checkbox" id="item-63b392361c4a0"></a></span>
+                        </div>
+                        <nav>
+                            <ul class="ez-toc-list ez-toc-list-level-1 ">
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#apa-pengertian-dari-berfikir-global-bertindak-lokal">1.
+                                            apa pengertian dari : berfikir global bertindak lokal</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#apa-pengertian-dari-berfikir-global-bertindak-lokal">2.
+                                            apa pengertian dari : berfikir global ,bertindak lokal</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#pengertian-ketimpangan-budaya-lokal-dan-global">3.
+                                            pengertian ketimpangan budaya lokal dan global</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#1-apa-contoh-sikap-berpikir-global-bertindak-lokal2-apa-yang-bukan-contoh-sikap-berpikir-global-bertindak-lokal3-apa-dampak-dari-berpikir-global-bertindak-lokal4-apa-pengertian-berpikir-glob">4.
+                                            1. apa contoh sikap berpikir global, bertindak lokal?2. apa yang bukan contoh sikap berpikir global, bertindak lokal?3. apa dampak dari berpikir global, bertindak lokal?4. apa pengertian berpikir global, bertindak lokal? JAWAB CEPAT YAHH!! DAN JAWAB YANG BAIK NGK BOLEH SEMBARANGAN!!! </a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#bersikap-terbuka-terhadap-perkembangan-perkembangan-yang-terjadi-di-seluruh-dunia-namun-masih-menjunjung-tinggi-produk-dalam-negeri-dibanding-produk-luar-negeri-merupakan-pengertian-dari-a-berfiki">5.
+                                            bersikap terbuka terhadap perkembangan perkembangan yang terjadi di seluruh dunia namun masih menjunjung tinggi produk dalam negeri dibanding produk luar negeri merupakan pengertian dari... a. berfikir lokal bertindak lokalb. berfikir lokal bertindak globalc. berfikir global bertindak globald. berfikir global bertindak lokal​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#berpikir-global-bertindak-lokal-contoh-sikap-bukan-contoh-sikap-dampak-pengertian%e2%80%8b">6.
+                                            berpikir Global bertindak lokal contoh sikap bukan contoh sikap dampak pengertian​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#berpikir-global-bertindak-lokal-contoh-sikap-dampak-bulan-contoh-sikap-pengertian%e2%80%8b">7.
+                                            berpikir global bertindak lokal-contoh sikap-dampak-bulan contoh sikap-pengertian​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#berpikir-global-bertindak-lokal-contoh-sikap-bukan-contoh-sikap-dampak-dan-pengertian%e2%80%8b">8.
+                                            berpikir Global bertindak lokal contoh sikap bukan contoh sikap dampak dan pengertian​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#apa-yang-di-maksud-berpikir-globalbertindak-lokal-pengertian">9.
+                                            Apa yang di maksud berpikir global,bertindak lokal pengertian</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#sekarang-coba-diskusikan-bersama-orang-tua-mu-mengenai-makna-berpikir-global-bertindak-lokaltuliskan-hasilnya-pada-diagram-berikut-yacontoh-sikapbukan-contoh-sikapberpikir-globalbertindak-lokaldam">10.
+                                            Sekarang coba diskusikan bersama orang tua mu mengenai makna "Berpikir Global, Bertindak LokalTuliskan hasilnya pada diagram berikut ya!Contoh sikapBukan contoh sikapBerpikir global,bertindak lokalDampakPengertian​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#berdasarkan-teks-yang-telah-karnu-baca-coba-diskusikan-dengan-temanmuberpikir-global-bertindak-lokal-tulislah-hasil-diskusimu-pada-diagramberikut-contoh-sikapbukan-contoh-sikapdampakberpikir-globa">11.
+                                            Berdasarkan teks yang telah karnu baca coba diskusikan dengan temanmu"Berpikir Global, Bertindak Lokal". Tulislah hasil diskusimu pada diagramberikut.Contoh sikapBukan contoh sikapDampakBerpikir globalbertindak lokalPengertian​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#contoh-sikapbukan-contoh-sikapberpikir-globalbertindak-lokaldampakpengertian%e2%80%8b">12.
+                                            Contoh sikapBukan contoh sikapBerpikir global,bertindak lokalDampakPengertian​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#contoh-sikapbukan-contoh-sikapdampakpengertianberpikir-global-bertindak-lokal%e2%80%8b">13.
+                                            Contoh sikapBukan contoh sikapDampakPengertianberpikir global bertindak lokal​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#sekarang-coba-diskusikan-bersama-orang-tua-mu-mengenai-makna-berpikir-global-bertindak-lokaltuliskan-hasilnya-pada-diagram-berikut-yalcontoh-sikapbukan-contoh-sikapberpikir-globalbertindak-lokald">14.
+                                            Sekarang coba diskusikan bersama orang tua mu mengenai makna 'Berpikir Global, Bertindak Lokal"!Tuliskan hasilnya pada diagram berikut yalContoh sikapBukan contoh sikapBerpikir global,bertindak lokalDampakPengertian​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#apa-saja-contoh-sikap-berpikir-global-bertindak-lokalapa-saja-yang-bukan-contoh-sikap-berpikir-global-bertindak-lokalapa-saja-dampak-dari-berpikir-global-bertindak-lokalapa-pengertian-dari-berpi">15.
+                                            Apa saja contoh sikap berpikir global bertindak lokal?
+Apa saja yang bukan contoh sikap berpikir global bertindak lokal?
+Apa saja dampak dari berpikir global bertindak lokal?
+Apa pengertian dari berpikir global bertindak lokal?
+Batasmya jam 9 ya kaka kaka :v</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#berikut-lokal-tulislah-hasil-diskusimu-pada-diagramcontoh-sikapbukan-contoh-sikapberpikir-globalbertindak-lokalpengertiandampaktolong-dijawab%e2%80%8b">16.
+                                            berikut.Lokal". Tulislah hasil diskusimu pada diagramContoh sikapBukan contoh sikapBerpikir globalbertindak lokalPengertianDampaktolong dijawab​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#apa-contoh-sikap-bukan-contoh-sikap-dampak-dan-pengertian-berpikir-global-bertindak-lokal">17.
+                                            Apa contoh sikap, bukan contoh sikap, dampak, dan pengertian "berpikir global bertindak lokal"</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#pengertian-bukan-contoh-sikap-berpikir-global-bertindak-lokal-plsss-jawab-soalnya-lagi-disekolahhhh%e2%80%8b">18.
+                                            Pengertian Bukan contoh sikap berpikir global bertindak lokal, Plsss jawab soalnya lagi disekolahhhh​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#jelaskan-pengertian-berfikir-global-bertindak-lokal%e2%80%8b">19.
+                                            Jelaskan pengertian berfikir global bertindak lokal​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#siswa-kelas-6-sd-negeri-melati-akan-menyelenggarakan-festival-berpikir-global-bertindak-lokal-penulisan-judul-festival-yang-benar-adalaha-berpikir-global-bertindak-lokalb-berpikir-global-bertindak">20.
+                                            siswa kelas 6 SD Negeri Melati akan menyelenggarakan festival "berpikir global bertindak lokal" penulisan judul festival yang benar adalahA. berpikir global bertindak lokalb. berpikir Global bertindak lokalc. berpikir global bertindak Lokald. Berpikir global, bertindak Local​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#pengertian-%e2%80%9cberpikirglobal-bertindak-lokal%e2%80%9dmohon-dijawab-dengan-jawaban-yg-tepat-ya">21.
+                                            pengertian “Berpikir
+Global, Bertindak Lokal”!
+mohon dijawab dengan jawaban yg tepat ya</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#1-manfaat-dari-berpikir-globalbertindak-lokal-2-akibat-dari-berpikir-globalbertindak-lokal-3-contoh-sikap-dari-berpikir-globalbertindak-lokal-4-tokoh-dari-berpikir-globalbertindak-lokal">22.
+                                            1.manfaat dari berpikir global,bertindak lokal.
+2.akibat dari berpikir global,bertindak lokal.
+3.contoh sikap dari berpikir global,bertindak lokal.
+4.tokoh dari berpikir global,bertindak lokal.</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#bersikap-terbuka-terhadap-perkembangan-dunia-namun-tidak-melupakan-budaya-sendiri-adalah-pengertian-dari-berpikir-global-bertindak-lokal-benar-salah">23.
+                                            Bersikap terbuka terhadap perkembangan dunia namun tidak melupakan budaya sendiri adalah pengertian dari berpikir global bertindak lokal * BENAR SALAH</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#apa-pengertian-berpikir-globalbertindal-lokal%e2%80%8b">24.
+                                            apa pengertian berpikir global,bertindal lokal​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#bukan-contoh-sikap-berpikir-global-bertindak-lokalplease-jawab2-dampak-berpikir-global-bertindak-lokal3-pengertian-berpikir-global-bertindak-lokal">25.
+                                            Bukan contoh sikap berpikir global bertindak lokal
+Please jawab!!
+2.dampak berpikir global bertindak lokal
+3.pengertian berpikir global bertindak lokal</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#apa-kegunaan-dari-global-variable%e2%80%8b">26.
+                                            Apa kegunaan dari Global Variable​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#pengertian-berpikir-global-bertindak-lokal">27.
+                                            Pengertian berpikir global bertindak lokal</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#di-jawab-ya1-pengertian-berpikir-global-bertindak-lokal-2-contoh-sikap-berpikir-global-bertindak-lokal-3-contoh3-bukan-contoh-sikap-berpikir-global-bertindak-lokal-3-contoh4-dampak-berpikir">28.
+                                            Di jawab ya1. Pengertian berpikir global. Bertindak lokal.2. Contoh sikap berpikir global, bertindak lokal (3 contoh)3. Bukan contoh sikap berpikir global, bertindak lokal (3 contoh)4. Dampak berpikir global, bertindak lokal.jangan jawab asal​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#1-contoh-sikap-berpikir-global-bertindak-lokal2-pokok-pikiran-berpikir-global-bertindak-lokal3-apa-yang-aku-bisa-lakukan-berpikir-global-bertindak-lokal4-nilai-nilai-berpikir-global-bertindak">29.
+                                            1. contoh sikap berpikir global bertindak lokal
+2. pokok pikiran berpikir global bertindak lokal
+3. apa yang aku bisa lakukan? berpikir global bertindak lokal
+4. nilai-nilai berpikir global bertindak lokal
+TOLONG DI JAWAB BENAR!!!!! JANGAN JAWAB SEMBARANGAN!!!!!!!</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#pengertian-peristiwa-sejarah-dalam-ruang-lingkup-lokalnasionaldan-global">30.
+                                            Pengertian peristiwa sejarah dalam ruang lingkup lokal,nasional
+Dan global</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#jelaskan-pengertian-masing-masing-pasar-lokal-pasar-nasional-dan-pasar-global-atau-internasional">31.
+                                            Jelaskan pengertian masing masing pasar lokal, pasar nasional, dan pasar global atau internasional</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#contoh-sikapbukan-contoh-sikapberfikirglobalbertindaklokalpengertiandampak%e2%80%8b">32.
+                                            Contoh SikapBukan contoh sikapBerfikirglobalBertindakLokalPengertianDampak​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#berpikir-global-bertindak-lokal-contoh-sikap-bukan-contoh-sikap-dampak-pengertian-%e2%80%8b%e2%80%8b">33.
+                                            berpikir global bertindak lokal. contoh sikap...bukan contoh sikap...dampak...pengertian...​​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#berpikir-global-bertindak-lokal-contoh-sikap-bukan-contoh-sikap-dampak-pengertian-%e2%80%8b">34.
+                                            Berpikir global bertindak lokal.   contoh sikap... bukan contoh sikap... dampak... pengertian...​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#1-manfaat-dari-berpikir-globalbertindak-lokal-2-akibat-dari-berpikir-globalbertindak-lokal-3-contoh-sikap-dari-berpikir-globalbertindak-lokal-4-tokoh-dari-berpikir-globalbertindak-lokal">35.
+                                            1.manfaat dari berpikir global,bertindak lokal.
+2.akibat dari berpikir global,bertindak lokal.
+3.contoh sikap dari berpikir global,bertindak lokal.
+4.tokoh dari berpikir global,bertindak lokal.</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#pengertian-dari-berpikir-global-bertindak-lokal">36.
+                                            pengertian dari berpikir global, bertindak lokal</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#pengertian-berpikir-global-bertindak-lokal-adalah">37.
+                                            Pengertian berpikir global bertindak lokal adalah?</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#berikutcontoh-sikapbukan-contoh-sikapberpikir-globalbertindok-lokaldompakpengertian%e2%80%8b">38.
+                                            berikutContoh sikapBukan contoh sikapBerpikir globalbertindok lokalDompakPengertian​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#contoh-sikap-dampak-berpikir-global-bertindak-lokal-bukan-contoh-sikap-pengertian%e2%80%8b">39.
+                                            Contoh sikap Dampak Berpikir global, bertindak lokal Bukan contoh sikap Pengertian​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#sebutkan-2-contoh-dampak-pengertian-berpikir-global-bertindak-lokal%e2%80%8b">40.
+                                            sebutkan 2 contoh Dampak pengertian berpikir global bertindak lokal​</a>
+                                    </li>
+                                                            </ul>
+                        </nav>
+                    </div>
+                                            <h2 class="ez-toc-section" id="apa-pengertian-dari-berfikir-global-bertindak-lokal">
+                            1. apa pengertian dari : berfikir global bertindak lokal</h2><br />
+                        Jadi, sebelum bertindak, kita harus berpikiran luas dan kritis agar tak 
+bertindak sembarangan, setelah itu, tindakan yang kita lakukan tidak 
+boleh ikut-ikutan orang  <br /><br />
+                                            <h2 class="ez-toc-section" id="apa-pengertian-dari-berfikir-global-bertindak-lokal">
+                            2. apa pengertian dari : berfikir global ,bertindak lokal</h2><br />
+                        adalah berfikir luas ,tap tetap inggat daerah asal<br /><br /><br />maaf klo salahberfikir seluas cara berfikir global namun tetap bertindak atau bersikap seperti budaya lokal<br />
+                                            <h2 class="ez-toc-section" id="pengertian-ketimpangan-budaya-lokal-dan-global">
+                            3. pengertian ketimpangan budaya lokal dan global</h2><br />
+                        <p>Ketimpangan budaya lokal adalah terjadinya konflik antar individu dengan kelompok</p><br /><p>Dan ketimpangan global adalah apabila pihak bangsa dirugikan oleh luar negeri atas dasar materiil dan non materiil</p><br />
+                                            <h2 class="ez-toc-section" id="1-apa-contoh-sikap-berpikir-global-bertindak-lokal2-apa-yang-bukan-contoh-sikap-berpikir-global-bertindak-lokal3-apa-dampak-dari-berpikir-global-bertindak-lokal4-apa-pengertian-berpikir-glob">
+                            4. 1. apa contoh sikap berpikir global, bertindak lokal?2. apa yang bukan contoh sikap berpikir global, bertindak lokal?3. apa dampak dari berpikir global, bertindak lokal?4. apa pengertian berpikir global, bertindak lokal? JAWAB CEPAT YAHH!! DAN JAWAB YANG BAIK NGK BOLEH SEMBARANGAN!!! </h2><br />
+                        <p>1.	Contoh sikap berpikir global, bertindak lokal adalah</p><p>a.	Menggunakan barang produksi dalam negeri.</p><p>b.	Berbelanja di pasar tradisional</p><p>c.	Mengkonsumsi buah-buahan lokal</p><p>2.	Bukan contoh sikap berpikir global, bertindak lokal adalah</p><p>a.	Lebih memilih produk luar neger</p><p>b.	Berbelanja di mall</p><p>c.	Memilih mengkonsusmsi buah-buahan impor</p><p>3.	Dampak dari berpikir global, bertindak lokal adalah</p><p>a.	Meningkatnya apresiasi dari masyarakat terhadap suatu produk barang dan jasa didalam negeri yang dijual di pasar tradisional, dan meningkatkan perekonomian rakyat serta citra negara Indonesia di mata internasional.</p><p>b.	Menggunakan barang produksi dalam negeri maka pasar produksi di Indonesia bisa ditingkatkan sehingga dapat mengurangi tekanan terhadap sektor industri dan gejala pengurangan tenaga kerja bisa dihindari.</p><p>c.	Buah-buahan lokal akan tetap menjadi raja di negara sendiri dan mampu bersaing dengan buah-buah dari luar negeri.</p><p>4.	Pengertian berpikir global, bertindak lokal adalah pemikiran maju dan mendunia, akan tetapi tetap bertindak sesuai budaya luhur bangsa Indonesia.</p><p></p>Pembahasan
+<p>Hai teman-teman BrainlyLovers...!!! Sekarang kita akan membahas berpikir global, bertindak lokal.  </p><p>Selamat belajar...!!!  </p><p></p><p></p><p>Kita memang perlu untuk berpikir secara global, serta akan lebih baik jika kita bertindak secara lokal. Berpikir global diawali dengan adanya kesadaran bahwa kita merupakan warga atau penduduk dari suatu masyarakat di mana saat ini kita tinggali, warga desa atau kota, warga propinsi, warga dari negara Indonesia, warga dari negara anggota ASEAN, dan juga sekaligus warga dunia. Sebagai warga negara yang baik, harus berfikir secara global tetapi tindakan yang dilakukan harus secara lokal dalam arti tidak akan mengikuti gaya orang luar negeri. Globalisasi dapat dijadikan sebagai kerangka acuan untuk tindakan-tindakan yang dilakukan secara lokal, serta sesuai dengan tempat kita berpijak.</p><p></p>Pelajari Lebih Lanjut
+<p>1.	Kajian tentang makna berpikir global, bertindak lokal bisa coba cek https://brainly.co.id/tugas/8340019</p><p></p><p>2.	Kajian tentang makna berpikir global, bertindak lokal bisa coba cek https://brainly.co.id/tugas/25146486</p><p></p><p>3.	Kajian tentang gambaran secara visual globalisasi bisa coba cek https://brainly.co.id/tugas/18708191</p><p></p>Detail Jawaban<p></p><p>Kelas : 9</p><p>Mapel : IPS</p><p>Bab : Bab 15 - Perilaku Masyarakat dalam Perubahan Sosial Budaya di Era Globalisasi</p><p>Kode : 9.10.15</p><p>Kata Kunci : Berpikir Global, Bertindal Lokal, Globalisasi.</p><p></p><p></p><br />
+                                            <h2 class="ez-toc-section" id="bersikap-terbuka-terhadap-perkembangan-perkembangan-yang-terjadi-di-seluruh-dunia-namun-masih-menjunjung-tinggi-produk-dalam-negeri-dibanding-produk-luar-negeri-merupakan-pengertian-dari-a-berfiki">
+                            5. bersikap terbuka terhadap perkembangan perkembangan yang terjadi di seluruh dunia namun masih menjunjung tinggi produk dalam negeri dibanding produk luar negeri merupakan pengertian dari... a. berfikir lokal bertindak lokalb. berfikir lokal bertindak globalc. berfikir global bertindak globald. berfikir global bertindak lokal​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>D. Berfikir global bertindak lokal</p><p></p><p></p><p>Semoga membantu</p><p><strong>Maaf </strong><strong>kalau </strong><strong>salah</strong></p><p><strong>Jadikan </strong><strong>jawaban</strong><strong> </strong><strong>terbaik</strong><strong> </strong><strong>yaa</strong></p><p></p><p></p><p><strong>[tex] &lt; haybaauraaa2727 &gt; [/tex]</strong></p><p></p><br />
+                                            <h2 class="ez-toc-section" id="berpikir-global-bertindak-lokal-contoh-sikap-bukan-contoh-sikap-dampak-pengertian%e2%80%8b">
+                            6. berpikir Global bertindak lokal contoh sikap bukan contoh sikap dampak pengertian​</h2><br />
+                        <p></p><p>Contoh sikap:</p><p><strong>-</strong><strong>Menggunakan </strong><strong>barang </strong><strong>negara</strong></p><p><strong>-</strong><strong> </strong><strong>Berbelanja </strong><strong>di </strong><strong>pasar </strong><strong>tradisional</strong></p><p><strong>-Mengkonsumsi </strong><strong>buah </strong><strong>buahan </strong><strong>lokal</strong></p><p></p><p>Maaf kalau salah </p><p>Tolong jadikan jawaban terbaik ya( ◜‿◝ )♡</p><p></p><p></p><br />
+                                            <h2 class="ez-toc-section" id="berpikir-global-bertindak-lokal-contoh-sikap-dampak-bulan-contoh-sikap-pengertian%e2%80%8b">
+                            7. berpikir global bertindak lokal-contoh sikap-dampak-bulan contoh sikap-pengertian​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>pengertian</p><p><strong>Penjelasan:</strong></p><p>maaf Kalo salah</p><br />
+                                            <h2 class="ez-toc-section" id="berpikir-global-bertindak-lokal-contoh-sikap-bukan-contoh-sikap-dampak-dan-pengertian%e2%80%8b">
+                            8. berpikir Global bertindak lokal contoh sikap bukan contoh sikap dampak dan pengertian​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>karena kita harus bisa jadi contoh bagi yang belum paham</p><p><strong>Penjelasan:</strong></p><p>karena kita harus menurut pak guru</p><p><strong>Jawaban:</strong></p><p>ga jelas partanyaannya</p><br />
+                                            <h2 class="ez-toc-section" id="apa-yang-di-maksud-berpikir-globalbertindak-lokal-pengertian">
+                            9. Apa yang di maksud berpikir global,bertindak lokal pengertian</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Berpikir global adalah <strong>"Berpikir global, bertindak lokal" adalah Pemikiran maju dan mendunia, namun tetap bertindak sesuai dengan budaya luhur bangsa Indonesia.</strong><strong> </strong></p><p></p><p><strong>SE</strong><strong>MOGA</strong><strong> BERMANFAAT</strong><strong> DAN</strong><strong> MAAF</strong><strong> KALO</strong><strong> SALAH</strong><strong> </strong><strong> </strong><strong>;</strong><strong>)</strong></p><br />
+                                            <h2 class="ez-toc-section" id="sekarang-coba-diskusikan-bersama-orang-tua-mu-mengenai-makna-berpikir-global-bertindak-lokaltuliskan-hasilnya-pada-diagram-berikut-yacontoh-sikapbukan-contoh-sikapberpikir-globalbertindak-lokaldam">
+                            10. Sekarang coba diskusikan bersama orang tua mu mengenai makna "Berpikir Global, Bertindak LokalTuliskan hasilnya pada diagram berikut ya!Contoh sikapBukan contoh sikapBerpikir global,bertindak lokalDampakPengertian​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Berpikir global, bertindak lokal adalah bersikap terbuka terhadap perkembangan-perkembangan yang terjadi di seluruh dunia, namun masih menjunjung tinggi budaya sendiri dibanding budaya asing.</p><p><strong>Penjelasan:</strong></p><p></p><br />
+                                            <h2 class="ez-toc-section" id="berdasarkan-teks-yang-telah-karnu-baca-coba-diskusikan-dengan-temanmuberpikir-global-bertindak-lokal-tulislah-hasil-diskusimu-pada-diagramberikut-contoh-sikapbukan-contoh-sikapdampakberpikir-globa">
+                            11. Berdasarkan teks yang telah karnu baca coba diskusikan dengan temanmu"Berpikir Global, Bertindak Lokal". Tulislah hasil diskusimu pada diagramberikut.Contoh sikapBukan contoh sikapDampakBerpikir globalbertindak lokalPengertian​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>1. Contoh sikap berpikir global, bertindak lokal adalah</p><p></p><p>a. Menggunakan barang produksi dalam negeri.</p><p></p><p>b. Berbelanja di pasar tradisional</p><p></p><p>c. Mengkonsumsi buah-buahan lokal</p><p></p><p>2. Bukan contoh sikap berpikir global, bertindak lokal adalah</p><p></p><p>a. Lebih memilih produk luar neger</p><p></p><p>b. Berbelanja di mall</p><p></p><p>c. Memilih mengkonsusmsi buah-buahan impor</p><p></p><p>3. Dampak dari berpikir global, bertindak lokal adalah</p><p></p><p>a. Meningkatnya apresiasi dari masyarakat terhadap suatu produk barang dan jasa didalam negeri yang dijual di pasar tradisional, dan meningkatkan perekonomian rakyat serta citra negara Indonesia di mata internasional.</p><p></p><p>b. Menggunakan barang produksi dalam negeri maka pasar produksi di Indonesia bisa ditingkatkan sehingga dapat mengurangi tekanan terhadap sektor industri dan gejala pengurangan tenaga kerja bisa dihindari.</p><p></p><p>c. Buah-buahan lokal akan tetap menjadi raja di negara sendiri dan mampu bersaing dengan buah-buah dari luar negeri.</p><p></p><p>4. Pengertian berpikir global, bertindak lokal adalah pemikiran maju dan mendunia, akan tetapi tetap bertindak sesuai budaya luhur bangsa Indonesia.</p><br />
+                                            <h2 class="ez-toc-section" id="contoh-sikapbukan-contoh-sikapberpikir-globalbertindak-lokaldampakpengertian%e2%80%8b">
+                            12. Contoh sikapBukan contoh sikapBerpikir global,bertindak lokalDampakPengertian​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>1. Contoh sikap berpikir global, bertindak lokal adalah</p><p></p><p>a. Menggunakan barang produksi dalam negeri.</p><p></p><p>b. Berbelanja di pasar tradisional</p><p></p><p>c. Mengkonsumsi buah-buahan lokal</p><p></p><p>2. Bukan contoh sikap berpikir global, bertindak lokal adalah</p><p></p><p>a. Lebih memilih produk luar neger</p><p></p><p>b. Berbelanja di mall</p><p></p><p>c. Memilih mengkonsusmsi buah-buahan impor</p><p></p><p>3. Dampak dari berpikir global, bertindak lokal adalah</p><p></p><p>a. Meningkatnya apresiasi dari masyarakat terhadap suatu produk barang dan jasa didalam negeri yang dijual di pasar tradisional, dan meningkatkan perekonomian rakyat serta citra negara Indonesia di mata internasional.</p><p></p><p>b. Menggunakan barang produksi dalam negeri maka pasar produksi di Indonesia bisa ditingkatkan sehingga dapat mengurangi tekanan terhadap sektor industri dan gejala pengurangan tenaga kerja bisa dihindari.</p><p></p><p>c. Buah-buahan lokal akan tetap menjadi raja di negara sendiri dan mampu bersaing dengan buah-buah dari luar negeri.</p><p></p><p>4. Pengertian berpikir global, bertindak lokal adalah pemikiran maju dan mendunia, akan tetapi tetap bertindak sesuai budaya luhur bangsa Indonesia.</p><p></p><p></p><br />
+                                            <h2 class="ez-toc-section" id="contoh-sikapbukan-contoh-sikapdampakpengertianberpikir-global-bertindak-lokal%e2%80%8b">
+                            13. Contoh sikapBukan contoh sikapDampakPengertianberpikir global bertindak lokal​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p></p><p></p><p></p><p></p><p>a. Menggunakan barang produksi dalam negeri.</p><p></p><p>b. Berbelanja di pasar tradisional</p><p></p><p>c. Mengkonsumsi buah-buahan lokal</p><p></p><p>2. Bukan contoh sikap berpikir global, bertindak lokal adalah</p><p></p><p>a. Lebih memilih produk luar neger</p><p></p><p>b. Berbelanja di mall</p><p></p><p>c. Memilih mengkonsusmsi buah-buahan impor</p><p><strong>Penjelasan:</strong></p><p>maaf jika salah</p><br />
+                                            <h2 class="ez-toc-section" id="sekarang-coba-diskusikan-bersama-orang-tua-mu-mengenai-makna-berpikir-global-bertindak-lokaltuliskan-hasilnya-pada-diagram-berikut-yalcontoh-sikapbukan-contoh-sikapberpikir-globalbertindak-lokald">
+                            14. Sekarang coba diskusikan bersama orang tua mu mengenai makna 'Berpikir Global, Bertindak Lokal"!Tuliskan hasilnya pada diagram berikut yalContoh sikapBukan contoh sikapBerpikir global,bertindak lokalDampakPengertian​</h2><br />
+                        <p><strong>penge</strong><strong>rtian</strong></p><p>berpikir global bertindak lokal adalah bersikap terbuka terhadap perkembangan perkembangan yang terjadi di seluruh dunia</p><p></p><p><strong>dampak</strong></p><p>jika kebutuhan masyarakat tidak terpenuhi maka kesejahteraan pun sulit di tingkatkan</p><p></p><p><strong>contoh</strong><strong> </strong><strong>sik</strong><strong>ap</strong></p><p>dengan mencintai dan menggunakan produk dalam negeri</p><p></p><p><strong>bukan</strong><strong> </strong><strong>contoh</strong><strong> </strong><strong>sikap</strong></p><p>lebih memilih produk luar negeri</p><p></p><p>maaf kalo salah semoga membantu dan bermanfaat</p><br />
+                                            <h2 class="ez-toc-section" id="apa-saja-contoh-sikap-berpikir-global-bertindak-lokalapa-saja-yang-bukan-contoh-sikap-berpikir-global-bertindak-lokalapa-saja-dampak-dari-berpikir-global-bertindak-lokalapa-pengertian-dari-berpi">
+                            15. Apa saja contoh sikap berpikir global bertindak lokal?
+Apa saja yang bukan contoh sikap berpikir global bertindak lokal?
+Apa saja dampak dari berpikir global bertindak lokal?
+Apa pengertian dari berpikir global bertindak lokal?
+Batasmya jam 9 ya kaka kaka :v</h2><br />
+                        <p>Jawaban: 1. Memakai produk asli Indonesia, membeli produk Indonesia, menggunankan produk Indonesia dalam kehidupan sehari-hari.</p><p></p><p>2.memakai produk impor, menggunakan dalam kehidupan sehari-hari,malu membeli produk Indonesia</p><p></p><p>3.produsen lokal tidak akan rugi, produk mereka akan semakin terkenal,akan membuka lowongan kerja</p><p></p><p>4. Yaitu tetap memakai produk Indonesia walaupun sekarang sudah modern,dan dalam rangka untuk memasarkan produk Indonesia yang tidak kalah kualitasnya.</p><p></p><p>Penjelasan: mohon maaf ya kalo salah </p><p></p><br />
+                                            <h2 class="ez-toc-section" id="berikut-lokal-tulislah-hasil-diskusimu-pada-diagramcontoh-sikapbukan-contoh-sikapberpikir-globalbertindak-lokalpengertiandampaktolong-dijawab%e2%80%8b">
+                            16. berikut.Lokal". Tulislah hasil diskusimu pada diagramContoh sikapBukan contoh sikapBerpikir globalbertindak lokalPengertianDampaktolong dijawab​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p></p><p>Baca Selanjutnya:</p><p></p><p>Satu Pegawai Positif Corona, Kantor Baznas Padang Ditutup Sampai 19 Oktober 2020</p><p></p><p>X</p><p>TRIBUNPADANG.COM - Berdasarkan teks yang telah kamu baca coba diskusikan dengan temanmu “Berpikir Global, Bertindak Lokal”. Tulislah hasil diskusimu pada diagram berikut.</p><p></p><p>Pertanyaan tersebut merupakan soal Tema 4 Kelas 6 SD/MI halaman 107, Buku Tematik Terpadu Kurikulum 2013 edisi revisi 2018.</p><p></p><p>Halaman 107 tersebut merupakan materi Pembelajaran 2, Subtema 3 Globalisasi dan Cinta Tanah Air, Tema 4 Globalisasi.</p><p></p><p>Berikut kunci jawaban Tema 4 Kelas 6 halaman 107:</p><p></p><p></p><p>Berdasarkan teks yang telah kamu baca coba diskusikan dengan temanmu “Berpikir Global, Bertindak Lokal”. Tulislah hasil diskusimu pada diagram berikut.</p><p></p><p>Jawaban:</p><p></p><p>Contoh sikap:</p><p>- Menggunakan bahasa Indonesia sebagai bahasa utama</p><p>- Melestarikan seni tradisional Indonesia</p><p>- Mencintai produk dalam negeri</p><p>- Menggunakan pakaian yang sopan</p><p>- Bersikap ramah terhadap sesama</p><p></p><p></p><p>Bukan contoh sikap:</p><p>- Menggunakan bahasa asing sebagai bahasa utama</p><p>- Lebih mengagumi budaya asing</p><p>- Memilih produk impor</p><p>- Menggunakan gaya pakaian yang terbuka</p><p>- Tidak bersikap ramah terhadap sesama</p><p></p><p>Dampak:</p><p>- Budaya Indonesia diambil alih oleh bangsa asing</p><p>- Bangsa Indonesia dapat kehilangan jati diri</p><p></p><p>Pengertian:</p><p>- Berpikir global, bertindak lokal yaitu bersikap terbuka terhadap perkembangan dunia namun tidak melupakan budaya sendiri.</p><br />
+                                            <h2 class="ez-toc-section" id="apa-contoh-sikap-bukan-contoh-sikap-dampak-dan-pengertian-berpikir-global-bertindak-lokal">
+                            17. Apa contoh sikap, bukan contoh sikap, dampak, dan pengertian "berpikir global bertindak lokal"</h2><br />
+                        berpikir global kan maksud ny mendunia.. jadii contoh sikapnya kita harus berfikir secara luas seperti dunia kan.. maaf dgn jawaban saya<br />
+                                            <h2 class="ez-toc-section" id="pengertian-bukan-contoh-sikap-berpikir-global-bertindak-lokal-plsss-jawab-soalnya-lagi-disekolahhhh%e2%80%8b">
+                            18. Pengertian Bukan contoh sikap berpikir global bertindak lokal, Plsss jawab soalnya lagi disekolahhhh​</h2><br />
+                        <p>Jawaban: Berpikir global adalah sikap yang memungkinkan kita dapat membuka pikiran untuk mengenal dan mengikuti perkembangan dunia, tetapi tetap bertindak menurut budaya sendiri.</p><p></p><p>Penjelasan: maaf kalo salah  dan semoga membantu </p><p></p><br />
+                                            <h2 class="ez-toc-section" id="jelaskan-pengertian-berfikir-global-bertindak-lokal%e2%80%8b">
+                            19. Jelaskan pengertian berfikir global bertindak lokal​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Berpikir global, bertindak lokal adalah bersikap terbuka terhadap perkembangan-perkembangan yang terjadi di seluruh dunia, namun masih menjunjung tinggi budaya sendiri dibanding budaya asing.</p><br />
+                                            <h2 class="ez-toc-section" id="siswa-kelas-6-sd-negeri-melati-akan-menyelenggarakan-festival-berpikir-global-bertindak-lokal-penulisan-judul-festival-yang-benar-adalaha-berpikir-global-bertindak-lokalb-berpikir-global-bertindak">
+                            20. siswa kelas 6 SD Negeri Melati akan menyelenggarakan festival "berpikir global bertindak lokal" penulisan judul festival yang benar adalahA. berpikir global bertindak lokalb. berpikir Global bertindak lokalc. berpikir global bertindak Lokald. Berpikir global, bertindak Local​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Jawabannya D </p><p></p><p>Smoga membantu:)</p><br />
+                                            <h2 class="ez-toc-section" id="pengertian-%e2%80%9cberpikirglobal-bertindak-lokal%e2%80%9dmohon-dijawab-dengan-jawaban-yg-tepat-ya">
+                            21. pengertian “Berpikir
+Global, Bertindak Lokal”!
+mohon dijawab dengan jawaban yg tepat ya</h2><br />
+                        &gt;&gt; Kebudayaan.<p>  ________________________</p><p></p><p></p>Pembahasan.<p></p><p><strong>&gt;</strong><strong>&gt;</strong><strong> </strong><strong>A</strong><strong>p</strong><strong>a</strong><strong> </strong><strong>m</strong><strong>a</strong><strong>k</strong><strong>s</strong><strong>u</strong><strong>d</strong><strong> </strong><strong>d</strong><strong>a</strong><strong>r</strong><strong>i</strong><strong> </strong><strong>"</strong><strong>B</strong><strong>e</strong><strong>r</strong><strong>p</strong><strong>i</strong><strong>k</strong><strong>i</strong><strong>r</strong><strong> </strong><strong>G</strong><strong>l</strong><strong>o</strong><strong>b</strong><strong>a</strong><strong>l</strong><strong>,</strong><strong> </strong><strong>B</strong><strong>e</strong><strong>r</strong><strong>t</strong><strong>i</strong><strong>n</strong><strong>d</strong><strong>a</strong><strong>k</strong><strong> </strong><strong>l</strong><strong>o</strong><strong>k</strong><strong>a</strong><strong>l</strong><strong>.</strong><strong>"</strong></p><p></p><p><strong>➡️</strong><strong> </strong><strong>M</strong><strong>a</strong><strong>k</strong><strong>s</strong><strong>u</strong><strong>d</strong><strong>n</strong><strong>y</strong><strong>a</strong><strong> </strong><strong>a</strong><strong>d</strong><strong>a</strong><strong>l</strong><strong>a</strong><strong>h</strong><strong> </strong><strong>k</strong><strong>i</strong><strong>t</strong><strong>a</strong><strong> </strong><strong>h</strong><strong>a</strong><strong>r</strong><strong>u</strong><strong>s</strong><strong> </strong><strong>b</strong><strong>e</strong><strong>r</strong><strong>p</strong><strong>i</strong><strong>k</strong><strong>i</strong><strong>r</strong><strong> </strong><strong>s</strong><strong>e</strong><strong>c</strong><strong>a</strong><strong>r</strong><strong>a</strong><strong> </strong><strong>t</strong><strong>e</strong><strong>r</strong><strong>b</strong><strong>u</strong><strong>k</strong><strong>a</strong><strong>,</strong><strong> </strong><strong>t</strong><strong>e</strong><strong>t</strong><strong>a</strong><strong>p</strong><strong>i</strong><strong> </strong><strong>j</strong><strong>a</strong><strong>n</strong><strong>g</strong><strong>a</strong><strong>n</strong><strong> </strong><strong>m</strong><strong>e</strong><strong>l</strong><strong>u</strong><strong>p</strong><strong>a</strong><strong>k</strong><strong>a</strong><strong>n</strong><strong> </strong><strong>k</strong><strong>e</strong><strong>b</strong><strong>u</strong><strong>d</strong><strong>a</strong><strong>y</strong><strong>a</strong><strong>a</strong><strong>n</strong><strong> </strong><strong>t</strong><strong>e</strong><strong>m</strong><strong>p</strong><strong>a</strong><strong>t</strong><strong> </strong><strong>k</strong><strong>i</strong><strong>t</strong><strong>a</strong><strong> </strong><strong>l</strong><strong>a</strong><strong>h</strong><strong>i</strong><strong>r</strong><strong>.</strong></p><p></p><p><strong>#</strong><strong>C</strong><strong>M</strong><strong>I</strong><strong>I</strong><strong>W</strong></p><p><strong>#</strong><strong>F</strong><strong>O</strong><strong>L</strong><strong>L</strong><strong>O</strong><strong>W</strong></p><br />
+                                            <h2 class="ez-toc-section" id="1-manfaat-dari-berpikir-globalbertindak-lokal-2-akibat-dari-berpikir-globalbertindak-lokal-3-contoh-sikap-dari-berpikir-globalbertindak-lokal-4-tokoh-dari-berpikir-globalbertindak-lokal">
+                            22. 1.manfaat dari berpikir global,bertindak lokal.
+2.akibat dari berpikir global,bertindak lokal.
+3.contoh sikap dari berpikir global,bertindak lokal.
+4.tokoh dari berpikir global,bertindak lokal.</h2><br />
+                        1. akan selalu menghormati negara sendiri <br />2. tidak memakai produk dalam negeri yg mengakibatkan negara produk dalam negeri kurang diminati <br />3. mengenang jasa para pahlawan, tidak selalu mengikuti perkembangan jaman<br />
+                                            <h2 class="ez-toc-section" id="bersikap-terbuka-terhadap-perkembangan-dunia-namun-tidak-melupakan-budaya-sendiri-adalah-pengertian-dari-berpikir-global-bertindak-lokal-benar-salah">
+                            23. Bersikap terbuka terhadap perkembangan dunia namun tidak melupakan budaya sendiri adalah pengertian dari berpikir global bertindak lokal * BENAR SALAH</h2><br />
+                        <strong>Jawaban:</strong>BENAR<strong>Penjelasan:</strong><p>Pengertian berpikir global bertindak lokal itu sendiri adalah sikap yang <strong>terbuka </strong>terhadap <strong>perkembangan-perkembangan</strong> yang terjadi <strong>diseluruh dunia,</strong> tetapi tetap masih <strong>menjunjung tinggi</strong> budaya sendiri dibandingkan dengan<strong> budaya asing.</strong></p><br />
+                                            <h2 class="ez-toc-section" id="apa-pengertian-berpikir-globalbertindal-lokal%e2%80%8b">
+                            24. apa pengertian berpikir global,bertindal lokal​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>adalah berfikir luas tetap ingat daerah asal</p><p><strong>Penjelasan:</strong></p><p>semoga membantu yh prend :D</p><br />
+                                            <h2 class="ez-toc-section" id="bukan-contoh-sikap-berpikir-global-bertindak-lokalplease-jawab2-dampak-berpikir-global-bertindak-lokal3-pengertian-berpikir-global-bertindak-lokal">
+                            25. Bukan contoh sikap berpikir global bertindak lokal
+Please jawab!!
+2.dampak berpikir global bertindak lokal
+3.pengertian berpikir global bertindak lokal</h2><br />
+                        <p>2.dampak berpikir global tidak lah bagus untuk kita</p><p>3.berpikir global adalah berpikiran hal yang negatif bagi seseorang</p><br /><br />
+                                            <h2 class="ez-toc-section" id="apa-kegunaan-dari-global-variable%e2%80%8b">
+                            26. Apa kegunaan dari Global Variable​</h2><br />
+                        <p>Jawaban: Jika kita tetap ingin menggunakan variabel yang didefenisikan di luar fungsi dan sebaliknya, PHP memperbolehkan hal tersebut dengan menambahkan sebuah kata kunci ‘global’ sebelum pendefenisian nama variabel.</p><p>Berikut contoh penggunaan keyword global:
+</p><p>
+</p><p>1
+</p><p>2
+</p><p>3
+</p><p>4
+</p><p>5
+</p><p>6
+</p><p>7
+</p><p>8
+</p><p>9
+</p><p>10
+</p><p>11
+</p><p>12
+</p><p>13
+</p><p>14
+</p><p>15
+</p><p>16
+</p><p>&lt;?php
+</p><p>$a = 7;
+</p><p>  </p><p>function coba()
+</p><p>{
+</p><p>   global $a;
+</p><p>   global $b;
+</p><p>   $b=15;
+</p><p>   echo $a;  //7
+</p><p>   echo $b;  //15
+</p><p>}
+</p><p>  </p><p>coba();
+</p><p>echo $a; //7
+</p><p>echo $b; //15
+</p><p>?&gt;</p><p>Program diatas tidak akan menghasilkan error seperti sebelumnya, dan kita bisa mengakses nilai variabel $a dari dalam fungsi coba(), dan nilai variabel $b di luar fungsi.</p><br />
+                                            <h2 class="ez-toc-section" id="pengertian-berpikir-global-bertindak-lokal">
+                            27. Pengertian berpikir global bertindak lokal</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>yaitu dapat membuka pikiran untuk mengenal dan mengikuti perkembangan dunia tetapi tetap bertindak menurut budaya sendiri.</p><p></p><p><strong>Jawaban:</strong></p><p>pengertiannya adalah pemikiran maju dan mendunia,namun tetap bertindak sesuai dengan budaya luhur bangsa Indonesia.</p><p><strong>Penjelasan:</strong></p><p>#semoga membantu</p><br />
+                                            <h2 class="ez-toc-section" id="di-jawab-ya1-pengertian-berpikir-global-bertindak-lokal-2-contoh-sikap-berpikir-global-bertindak-lokal-3-contoh3-bukan-contoh-sikap-berpikir-global-bertindak-lokal-3-contoh4-dampak-berpikir">
+                            28. Di jawab ya1. Pengertian berpikir global. Bertindak lokal.2. Contoh sikap berpikir global, bertindak lokal (3 contoh)3. Bukan contoh sikap berpikir global, bertindak lokal (3 contoh)4. Dampak berpikir global, bertindak lokal.jangan jawab asal​</h2><br />
+                        Jawaban :<p> 1. Berpikir global, bertindak lokal adalah bersikap terbuka terhadap perkembangan-perkembangan yang terjadi di seluruh dunia, namun masih menjunjung tinggi budaya sendiri dibanding budaya asing.</p><p></p><p> 2. Contoh sikap :</p><p></p><p>- Menggunakan bahasa Indonesia sebagai bahasa utama.</p><p></p><p>- Bersikap ramah terhadap sesama.</p><p></p><p>- Melestarikan seni tradisional Indonesia.</p><p></p><p>- Mencintai produk dalam negeri.</p><p></p><p>- Menggunakan pakaian yang sopan.</p><p></p><p> 3. Bukan contoh sikap :</p><p></p><p>- Menggunakan bahasa asing sebagai bahasa utama.</p><p></p><p>- Tidak bersikap ramah terhadap sesama.</p><p></p><p>- Lebih mengagumi budaya asing.</p><p></p><p>- Memilih produk impor.</p><p></p><p>- Menggunakan gaya pakaian yang terbuka.</p><p></p><p> 4. Dampak :</p><p></p><p>- Budaya Indonesia diambil alih oleh bangsa asing.</p><p></p><p>- Bangsa Indonesia dapat kehilangan jati diri.</p><p></p><strong>Penjelasan:</strong><p></p><p> Berpikir global, bertindak lokal yaitu bersikap terbuka terhadap perkembangan dunia namun tidak melupakan budaya sendiri.</p><p></p><p>  Maaf Ya Kalau Salah Jawabannya </p><br />
+                                            <h2 class="ez-toc-section" id="1-contoh-sikap-berpikir-global-bertindak-lokal2-pokok-pikiran-berpikir-global-bertindak-lokal3-apa-yang-aku-bisa-lakukan-berpikir-global-bertindak-lokal4-nilai-nilai-berpikir-global-bertindak">
+                            29. 1. contoh sikap berpikir global bertindak lokal
+2. pokok pikiran berpikir global bertindak lokal
+3. apa yang aku bisa lakukan? berpikir global bertindak lokal
+4. nilai-nilai berpikir global bertindak lokal
+TOLONG DI JAWAB BENAR!!!!! JANGAN JAWAB SEMBARANGAN!!!!!!!</h2><br />
+                        1. contoh sikap berpikir global bertindak lokal seperti mengenalkan budaya lokal ke dunia internasional (contohnya mengenalkan kuliner tradisional agar dapat diterima oleh semua orang. tempe, gado-gado, kerupuk, rempeyek, rendang telah mampu diterima oleh orang asing)<br /><br />2. pokok pikiran berpikir global bertindak lokal adalah globalisasi budaya lokal, dengan melakukan publikasi kekayaan tradisi yg dimiliki diharapkan membawa dampak yg menguntungkan, yg di kemudian hari meningkatkan perekonomian rakyat.<br /><br />3. Hal yang bisa dilakukan adalah dengan mempelajari caranya, mencari peluang dan melakukan tindakan nyata yang benar.<br /><br />4. nilai-nilai berpikir global bertindak lokal adalah pola fikir, pola sikap dan pola tindak.<br />
+                                            <h2 class="ez-toc-section" id="pengertian-peristiwa-sejarah-dalam-ruang-lingkup-lokalnasionaldan-global">
+                            30. Pengertian peristiwa sejarah dalam ruang lingkup lokal,nasional
+Dan global</h2><br />
+                        <p><strong>Terdapat beberapa pengertian sejarah</strong> mengenai apa itu sejarah secara definisi dan makna contohnya adalah sebagai berikut:</p><p><strong>Sejarah erat kaitannya</strong> dengan suatu peristiwa atau kejadian yang terjadi di masa lampau. Peristiwa yang terjadi dalam sejarah dibuat dan ditulis sendiri oleh manusia. Sejarah membuat manusia lebih mengerti tentang kejadian apa yang terjadi di masa lampau dan bagaimana harus menyikapinya. </p><p><strong>Sejarah memegang peranan penting </strong>dalam bidang ilmu pengetahuan dan kehidupan manusia.  Menurut M. Dien Madjid dan Johan Wahyudhi dalam buku Ilmu Sejarah: Sebuah Pengantar (2014), kata 'sejarah' berasal dari Bahasa Arab, syajaratun, artinya pohon kehidupan.  Sedangkan untuk Bahasa Inggris dari sejarah, yakni history berasal dari Bahasa Yunani, istoria berarti ilmu. </p><p>Saat ini kata 'sejarah' dalam Bahasa Indonesia lebih merujuk pada pengertian kata history, sebagai silsilah, kejadian di masa lampau, serta ilmu atau pengetahuan. Secara praktis, kata sejarah sering dipahami dalam empat pengertian ruang lingkup, yaitu sebagai:  Sejarah sebagai peristiwa Peristiwa merujuk pada kejadian yang pernah terjadi di masa lampau. </p><p>Peristiwa dapat dikatakan menjadi bagian dari sejarah jika kejadian tersebut bersifat penting, nyata dan faktual. Kejadian tersebut haruslah menyangkut kehidupan manusia dan relasinya. </p><p>Adanya nilai keindahan dan rekreatif yang terkandung, menjadikan sebuah kisah sejarah sebagai seni.  Dalam hal ini, sejarah sebagai seni melibatkan emosi dan imajinasi dari pembaca. Sehingga  bisa membayangkan dan terbawa suasana terhadap kisah sejarah yang diceritakan. Sejarah sebagai seni juga memiliki daya tarik tersendiri bagi manusia untuk mempelajari dan mengetahui sejarah dengan cara berbeda.</p><p></p><p><strong>Pembahasan:</strong></p><p><strong>Ciri utama  sejarah</strong> sebagai seni adalah memerlukan imajinasi dan cara bertutur yang menarik. Sebagian besar waktu, media tertulis digunakan sebagai sarana untuk menyampaikan sejarah sebagai seni. Dengan demikian, gaya bicara menjadi  penting dan menjadi ciri utama kawasan bersejarah ini. </p><p><strong>Sejarah sebagai sejarah</strong> memiliki kualitas faktual yang dapat dijelaskan. Artinya, narasi sejarah  harus sesuai dengan nilai-nilai faktual. Dalam penyusunannya menerima tafsir atau tafsir.</p><p></p><p><strong>Pelajari Lebih Lanjut</strong></p><p><strong></strong></p><strong>Materi tentang Sejarah Ka'bah brainly.co.id/tugas/13422077</strong><strong>Materi tentang Sejarah Ratu Inggris brainly.co.id/tugas/8494806</strong><strong>Materi tentang Peninggalan Sejarah Jerman brainly.co.id/tugas/3617579</strong><p><strong>Detail Jawaban</strong></p><p></p><p>Kelas : 10</p><p>Mapel : Sejarah</p><p>Bab : Bab 1 - Cara Berpikir Sejarah</p><p>Kode : 10.3.1</p><p><strong></strong></p><p><strong>#AyoBelajar</strong></p><p><strong>#SPJ2</strong></p><br />
+                                            <h2 class="ez-toc-section" id="jelaskan-pengertian-masing-masing-pasar-lokal-pasar-nasional-dan-pasar-global-atau-internasional">
+                            31. Jelaskan pengertian masing masing pasar lokal, pasar nasional, dan pasar global atau internasional</h2><br />
+                        <p>Berikut adalah pengertian dari masing-masing pasar:</p><strong>Pasar lokal </strong>adalah sebuah bentuk dari pasar yang dimana pembeli dan juga penjualnya akan berada pada satu tempat dari produk yang dapat dihasilkan. Umumnya hanya akan menerima permintaan yang berada pada satu kota full.<strong>Pasar nasional </strong>adalah sebuah bentuk dari pasar yang dimana pembeli dan juga penjualnya berada pada satu negara yang sama dan melayani permintaan pada negara tersebut pula<strong>Pasar internasional</strong> adalah sebuah bentuk dari pasar yang dimana pembeli dan penjualnya serta mampu untuk melayani jangkauan di seluruh dunia.Pembahasan
+<p>Pasar adalah sebuah bentuk dari area tempat terjadinya jual beli barang yang dimana penjualnya terkumpul pada satu tempat tersebut.</p>Pelajari lebih lanjut
+<p>1. Materi tentang pasar https://brainly.co.id/tugas/794147
+</p><p>2. Materi tentang pasar https://brainly.co.id/tugas/4015926
+</p><p>3. Materi tentang pasar https://brainly.co.id/tugas/9733146
+</p><p>-----------------------------
+</p>Detil jawaban
+<p><strong>Kelas: 4
+</strong></p><p><strong>Mapel: Ilmu Sosial
+</strong></p><p><strong>Bab: Bab 3 - Sumber Daya Alam dan Kegiatan Ekonomi Setempat
+</strong></p><p><strong>Kode: 4.10.3
+</strong></p><p><strong>#AyoBelajar
+</strong></p><p><strong></strong></p><br />
+                                            <h2 class="ez-toc-section" id="contoh-sikapbukan-contoh-sikapberfikirglobalbertindaklokalpengertiandampak%e2%80%8b">
+                            32. Contoh SikapBukan contoh sikapBerfikirglobalBertindakLokalPengertianDampak​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>contoh sikap:</p><p>Berfikir, bertindak, pengertian</p><p>bukan contoh sikap:</p><p>global,lokal,dampak</p><p><strong>Jawaban:</strong></p>contoh sikapberfikir dalam melakukan apapun2tidak taubertindak untuk melakukan secepatnyatak tauapakah yang dimaksud dalam cerita ituakibat dari kesalahan yang terjadibukan contoh sikapbermain layang tidak mengerjakan tugas atau mengerjakan tugas dengab tidak berfikir dan banyak salahtidak taukalau tidak beryindak secepatnya kita akan mendapatkan akibat yang sangat seriustak taukalau tidak ada pengertian berarti ceritanya tidak mengertikankurang tau<br />
+                                            <h2 class="ez-toc-section" id="berpikir-global-bertindak-lokal-contoh-sikap-bukan-contoh-sikap-dampak-pengertian-%e2%80%8b%e2%80%8b">
+                            33. berpikir global bertindak lokal. contoh sikap...bukan contoh sikap...dampak...pengertian...​​</h2><br />
+                        <p>contoh sikap:</p><p>bukan contoh sikap:</p><p>dampak:</p><p>pengertian:</p><p></p><br />
+                                            <h2 class="ez-toc-section" id="berpikir-global-bertindak-lokal-contoh-sikap-bukan-contoh-sikap-dampak-pengertian-%e2%80%8b">
+                            34. Berpikir global bertindak lokal.   contoh sikap... bukan contoh sikap... dampak... pengertian...​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>**Berpikir global bertindak lokal** adalah konsep yang menggarisbawahi pentingnya memahami isu-isu global dan dampaknya pada tingkat lokal, sementara pada saat yang sama bertindak untuk mengatasi masalah tersebut di tingkat lokal. Ini adalah pendekatan yang bertujuan untuk mengintegrasikan kepedulian terhadap isu-isu global dengan tindakan nyata di komunitas lokal. Berikut adalah beberapa contoh dan pengertian terkait:</p><p></p><p>**Contoh Sikap Berpikir Global Bertindak Lokal:**</p><p></p><p>1. **Peduli tentang Perubahan Iklim**: Seseorang yang peduli tentang perubahan iklim secara global dapat mengambil tindakan lokal dengan mengurangi emisi karbon pribadi, seperti mengurangi pemakaian mobil atau menggunakan energi terbarukan di rumah.</p><p></p><p>2. **Pengurangan Sampah Plastik**: Mengurangi penggunaan plastik sekali pakai di tingkat lokal untuk membantu mengurangi masalah polusi plastik global.</p><p></p><p>3. **Dukungan untuk Keadilan Sosial Global**: Terlibat dalam kegiatan amal atau mendukung organisasi yang bekerja untuk mengatasi masalah seperti kemiskinan global atau ketidaksetaraan.</p><p></p><p>**Bukan Contoh Sikap Berpikir Global Bertindak Lokal:**</p><p></p><p>1. **Tidak Peduli terhadap Masalah Global**: Tidak memiliki perhatian atau kesadaran terhadap isu-isu global seperti perubahan iklim atau ketidaksetaraan global.</p><p></p><p>2. **Apathy Lokal**: Memiliki pemahaman tentang masalah global tetapi tidak mengambil tindakan nyata atau berkontribusi untuk mengatasi masalah tersebut di tingkat lokal.</p><p></p><p>**Dampak**: Pendekatan "berpikir global bertindak lokal" bertujuan untuk menciptakan dampak positif dengan menggabungkan kesadaran global dengan tindakan nyata di tingkat lokal. Dampaknya dapat berupa pengurangan polusi, perbaikan kualitas hidup komunitas lokal, dan kontribusi terhadap solusi masalah global.</p><p></p><p>**Pengertian**: "Berpikir global bertindak lokal" adalah filosofi atau pendekatan yang mendorong individu dan komunitas untuk memahami hubungan antara isu-isu global dan tindakan lokal mereka. Ini melibatkan kesadaran tentang masalah global dan upaya nyata untuk mengatasi masalah tersebut di dalam komunitas atau lingkungan sekitar mereka. Pendekatan ini penting untuk mempromosikan keberlanjutan, keadilan sosial, dan perubahan positif di tingkat global maupun lokal.</p><br />
+                                            <h2 class="ez-toc-section" id="1-manfaat-dari-berpikir-globalbertindak-lokal-2-akibat-dari-berpikir-globalbertindak-lokal-3-contoh-sikap-dari-berpikir-globalbertindak-lokal-4-tokoh-dari-berpikir-globalbertindak-lokal">
+                            35. 1.manfaat dari berpikir global,bertindak lokal.
+2.akibat dari berpikir global,bertindak lokal.
+3.contoh sikap dari berpikir global,bertindak lokal.
+4.tokoh dari berpikir global,bertindak lokal.</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>1.Pemikiran kita menyeluruh,tetapi tetap harus mematuhi peraturan yang berlaku di negara kita</p><p>2.Pemikiran seseorang sudah melewati batas akibatnya sering melakukan hal hal yang dilarang</p><p>3.Mengekspor barang barang indonesia</p><p>4.-</p><p><strong>Penjelasan:</strong></p><p>#Mohon maaf ya kalo salah</p><p></p><br />
+                                            <h2 class="ez-toc-section" id="pengertian-dari-berpikir-global-bertindak-lokal">
+                            36. pengertian dari berpikir global, bertindak lokal</h2><br />
+                        <p>Dalam <strong>globalisasi,</strong> kita harus mampu berpikir luas dan selaras dengan kemajuan zaman agar menjadi manusia yang unggul. Namun perilaku kita harus tetap sesuai dengan adat istiadat yang berlaku dan <strong>bersikap lokal.</strong></p><p></p><p><strong>Pembahasan:</strong></p><p><strong>Kata globalisasi </strong>jika ditelaah berasal dari kata globe yang bermakna dunia, maka secara harfiah globalisasi bisa dikatakan sebagai proses mendunia. Sebagian pemikir berpendapat bahwa globalisasi merupakan sebuah proses kehidupan yang menghubungkan seluruh bangsa dan negara di dunia menuju ke sebuah tatanan kehidupan baru yang bisa menghapus batas geografi, ekonomi dan sosial budaya. Akibatnya, kini globalisasi masuk dan mempengaruhi berbagai bidang kehidupan.</p><p><strong>Isu yang timbul dari adanya globalisasi, antara lain:</strong></p><p><strong>•	Munculnya Sikap Individualisme, Konsumtif dan Matrealis</strong></p><p>Pengaruh globalisasi memunculkan pelbagai sikap buruk manusia, seperti sikap individualisme, konsumtif dan matrealis. Perkembangan zaman memicu manusia untuk bekerja keras agar bisa mendapatkan uang untuk bertahan hidup, hal ini memicu munculnya sikap individualisme bagi setiap orang. </p><p><strong>•	Lunturnya Nilai-Nilai Keagamaan</strong></p><p>Sikap individualisme, konsumtif dan matrealis yang terbentuk akibat dari dampak negatif globalisasi memungkin nilai-nilai keagamaan tidak lagi diutamakan. Sibuknya kegiatan manusia di zaman modern ini juga bisa menghambat mereka untuk beribadah.</p><p><strong>•	Pudarnya Nilai-Nilai Budaya Lokal</strong></p><p>Hadirnya pengaruh budaya luar di sebuah negara dapat mempengaruhi pudarnya nilai-nilai budaya lokal di negara tersebut. Misalnya tata krama dan sopan santun yang menjadi nilai budaya di Indonesia, kini sudah dipinggirkan oleh pemuda-pemuda bangsa, karena gencarnya pengaruh budaya barat yang meracuni pemuda bangsa.</p><p><strong>•	Hilangnya Kesenian Tradisional</strong></p><p>Berkurangnya minat masyarakat terhadap kesenian tradisional bisa menjadi penyebab kesenian tradisional mati dan hilang. Hadirnya hiburan baru dan modern dirasa lebih menarik perhatian masyarakat, sementara kesenian tradisional yang tidak melakukan pembaharuan akan dirasa membosankan dan tidak diminati lagi. Akibatnya, sebuah kesenian tradisional akan mati dan tidak dipentaskan karena kurangnya modal untuk menghidupi kesenian tradisional tersebut.</p><p><strong>•	Rusaknya Moral Masyarakat</strong></p><p>Pengaruh buruk dari luar yang selalu dipertontonkan di media internet dan televisi dapat dengan mudah diakses oleh semua orang dan dapat mempengaruhi orang yang melihatnya. Sebagai contoh di era yang serba modern ini gaya hidup masyarakat Indonesia banyak yang meniru gaya hidup orang barat, padahal gaya hidup tersebut tidak semuanya sesuai dengan norma di masyarakat.</p><p></p><p></p><p><strong>Pelajari Lebih Lanjut</strong></p><p>1.	Materi tentang Globalisasi : brainly.co.id/tugas/4704461</p><p>2.	Materi tentang Ancaman globalisasi :brainly.co.id/tugas/9136870</p><p>3.	Materi tentang macam macam globalisasi : brainly.co.id/tugas/4704461</p><p><strong>Detail Jawaban</strong></p><p><strong>K</strong>elas: 4 SD</p><p>Mapel: PPkn</p><p>Bab: Bab 4 - Globalisasi</p><p>Kode: 4.9.4</p><p><strong>#AyoBelajar #SPJ</strong><strong>5</strong></p><br />
+                                            <h2 class="ez-toc-section" id="pengertian-berpikir-global-bertindak-lokal-adalah">
+                            37. Pengertian berpikir global bertindak lokal adalah?</h2><br />
+                        <p>berpikir secara global bertindak secara lokal (tidak meninggalkan adat istiadat yang ada)</p><br />
+                                            <h2 class="ez-toc-section" id="berikutcontoh-sikapbukan-contoh-sikapberpikir-globalbertindok-lokaldompakpengertian%e2%80%8b">
+                            38. berikutContoh sikapBukan contoh sikapBerpikir globalbertindok lokalDompakPengertian​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>pemanasan global </p><p><strong>Penjelasan:</strong></p><p>maaf y kalo salah </p><br />
+                                            <h2 class="ez-toc-section" id="contoh-sikap-dampak-berpikir-global-bertindak-lokal-bukan-contoh-sikap-pengertian%e2%80%8b">
+                            39. Contoh sikap Dampak Berpikir global, bertindak lokal Bukan contoh sikap Pengertian​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Maaf atas kesalahpahaman sebelumnya. Berikut adalah contoh sikap "Dampak Berpikir global, bertindak lokal":</p><p></p><p>1. Mengurangi penggunaan air: Menghemat air saat mandi, mencuci tangan, atau membersihkan rumah dapat membantu mengurangi penggunaan air secara global. Meskipun dampak pengurangan ini mungkin terlihat kecil secara individual, jika banyak orang melakukannya, dapat memberikan dampak positif pada sumber daya air yang terbatas.</p><p></p><p>2. Membeli produk lokal: Memilih untuk membeli produk lokal dapat membantu mengurangi dampak lingkungan yang dihasilkan dari transportasi jarak jauh dan mendukung ekonomi lokal. Dengan membeli produk lokal, kita juga dapat mengurangi jejak karbon yang dihasilkan dari rantai pasokan global.</p><p></p><p>3. Mengurangi penggunaan plastik sekali pakai: Menggunakan tas belanja kain yang dapat digunakan berulang kali, membawa botol minum sendiri, dan menghindari penggunaan sedotan plastik sekali pakai adalah contoh tindakan kecil yang dapat membantu mengurangi sampah plastik dan polusi global.</p><p></p><p>4. Mendukung energi terbarukan: Menggunakan energi terbarukan seperti tenaga surya atau angin, atau mendukung inisiatif energi terbarukan seperti memasang panel surya di rumah, dapat membantu mengurangi emisi gas rumah kaca dan mengurangi ketergantungan pada sumber energi fosil.</p><p></p><p>5. Mengurangi konsumsi daging: Mengurangi konsumsi daging atau memilih makanan nabati sebagai alternatif dapat membantu mengurangi jejak karbon yang dihasilkan oleh industri peternakan dan mengurangi dampak deforestasi untuk perluasan lahan peternakan.</p><p></p><p>Sikap "Dampak Berpikir global, bertindak lokal" mendorong individu untuk melihat dan memahami dampak tindakan mereka terhadap lingkungan global dan berusaha untuk mengambil tindakan yang positif dalam skala lokal untuk mengurangi dampak negatif tersebut.</p><p></p><p><strong>Penjelasan:</strong></p><p>oke y dek</p><br />
+                                            <h2 class="ez-toc-section" id="sebutkan-2-contoh-dampak-pengertian-berpikir-global-bertindak-lokal%e2%80%8b">
+                            40. sebutkan 2 contoh Dampak pengertian berpikir global bertindak lokal​</h2><br />
+                        <p><strong>Jawaban:</strong></p>dampak positif berfikir global bertindak local yaitu mampu memahami perkembangan dunia dengan segala bentuk perubahan dan mampu bertindak/berkarya sesuai dengan nilai-nilai luhur dan budaya local/daerah<p><strong>Jawaban:</strong></p><p>Dampak berpikir global bertindak lokal adalah kita tetap mengikuti perkembangan zaman dan terbuka atas informasi baru namun kita tetap menjaga nilai persatuan dan kesatuan dengan tetap memegang nilai. norma, dan budaya yang ada di negara kita. Dampak lain dari berpikir global bertindak lokal adalah budaya lokal yang tidak terhapus oleh budaya baru yang masuk.</p><p></p><br />
+                    
+                </div>
+                <div class="youtubeVideo" style="text-align: center">
+                    <h3>Video Terkait</h3>
+                    <iframe width="560" height="315"
+                        src="https://www.youtube.com/embed/5Blb_zQb5BY?controls=0" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"allowfullscreen></iframe>
+                </div>
+                <footer class="entry-meta" aria-label="Meta postingan">
+                    <span class="cat-links"><span class="gp-icon icon-categories"><svg viewBox="0 0 512 512"
+                                aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em">
+                                <path
+                                    d="M0 112c0-26.51 21.49-48 48-48h110.014a48 48 0 0143.592 27.907l12.349 26.791A16 16 0 00228.486 128H464c26.51 0 48 21.49 48 48v224c0 26.51-21.49 48-48 48H48c-26.51 0-48-21.49-48-48V112z">
+                                </path>
+                            </svg></span><span class="screen-reader-text">Kategori </span>b_indonesia</span>
+            </div>
+        </article>
+    </main>
+            </div>
+            <div class="widget-area sidebar is-right-sidebar" id="right-sidebar">
+                <div class="inside-right-sidebar">
+                    <aside id="categories-2" class="widget inner-padding widget_categories">
+                        <h2 class="widget-title">Topik</h2>
+                        <ul>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://portalpendidikan.github.io/psikotes-bfi-finance-kaskus.html">Psikotes Bfi Finance Kaskus</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://portalpendidikan.github.io/langkah-keseimbangan-pada-senam-irama-disebut-dengan-istilah.html">Langkah Keseimbangan Pada Senam Irama Disebut Dengan Istilah</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://portalpendidikan.github.io/psikotes-tes-logika-orang-kerja-hari.html">Psikotes Tes Logika Orang Kerja Hari</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://portalpendidikan.github.io/jelaskan-pengertian-dari-akhlak-menurut-syariat-islam.html">Jelaskan Pengertian Dari Akhlak Menurut Syariat Islam</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://portalpendidikan.github.io/contoh-soal-psikotes-melanjutkan-baris-angka.html">Contoh Soal Psikotes Melanjutkan Baris Angka</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://portalpendidikan.github.io/download-soal-psikotes-dan-jawabannya-pdf-terbaru.html">Download Soal Psikotes Dan Jawabannya Pdf Terbaru</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://portalpendidikan.github.io/dua-kalimat-syahadat-disebut-juga-dengan.html">Dua Kalimat Syahadat Disebut Juga Dengan</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://portalpendidikan.github.io/pengertian-dari-kacang-kedelai.html">Pengertian Dari Kacang Kedelai</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://portalpendidikan.github.io/tes-psikotes-untuk-customer-service.html">Tes Psikotes Untuk Customer Service</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://portalpendidikan.github.io/pengertian-dari-acapella.html">Pengertian Dari Acapella</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://portalpendidikan.github.io/psikotes-yamazaki-indonesia.html">Psikotes Yamazaki Indonesia</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://portalpendidikan.github.io/pengertian-dari-website-mailing-list.html">Pengertian Dari Website Mailing List</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://portalpendidikan.github.io/pengertian-dari-npwp-beserta-contohnya.html">Pengertian Dari Npwp Beserta Contohnya</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://portalpendidikan.github.io/soal-agama-islaam.html">Soal Agama Islaam</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://portalpendidikan.github.io/sebutkan-organisasi-semimiliter-bentukan-jepang.html">Sebutkan Organisasi Semimiliter Bentukan Jepang</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://portalpendidikan.github.io/jelaskan-pengertian-dari-kewenangan-digital-serta-komponen-nya.html">Jelaskan Pengertian Dari Kewenangan Digital Serta Komponen Nya</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://portalpendidikan.github.io/mengapa-indonesia-disebut-sebagai-negara-majemuk.html">Mengapa Indonesia Disebut Sebagai Negara Majemuk</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://portalpendidikan.github.io/contoh-soal-psikotes-rumah-sakit-bersama-jawaban-nya.html">Contoh Soal Psikotes Rumah Sakit Bersama Jawaban Nya</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://portalpendidikan.github.io/cara-menyusun-kisi-kisi-materi.html">Cara Menyusun Kisi kisi Materi</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://portalpendidikan.github.io/chevid-test-psikotes.html">Chevid Test Psikotes</a>
+                                </li>
+                                                    </ul>
+
+                    </aside>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="site-footer">
+        <footer class="site-info" aria-label="Situs" itemtype="https://schema.org/WPFooter" itemscope>
+            <div class="inside-site-info grid-container">
+                <div class="copyright-bar">
+                    <span class="copyright">&copy; 2023 <a href="https://portalpendidikan.github.io"
+                            itemprop="url">BELAJAR</a></span>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <a title="Gulirkan kembali ke puncak laman" aria-label="Gulirkan kembali ke puncak laman" rel="nofollow"
+        href="#" class="generate-back-to-top" data-scroll-speed="400" data-start-scroll="300">
+        <span class="gp-icon icon-arrow-up"><svg viewBox="0 0 330 512" aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill-rule="evenodd"
+                clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414">
+                <path
+                    d="M305.863 314.916c0 2.266-1.133 4.815-2.832 6.514l-14.157 14.163c-1.699 1.7-3.964 2.832-6.513 2.832-2.265 0-4.813-1.133-6.512-2.832L164.572 224.276 53.295 335.593c-1.699 1.7-4.247 2.832-6.512 2.832-2.265 0-4.814-1.133-6.513-2.832L26.113 321.43c-1.699-1.7-2.831-4.248-2.831-6.514s1.132-4.816 2.831-6.515L158.06 176.408c1.699-1.7 4.247-2.833 6.512-2.833 2.265 0 4.814 1.133 6.513 2.833L303.03 308.4c1.7 1.7 2.832 4.249 2.832 6.515z"
+                    fill-rule="nonzero" />
+            </svg></span>
+    </a>
+    <script id="generate-a11y">
+        ! function() {
+            "use strict";
+            if ("querySelector" in document && "addEventListener" in window) {
+                var e = document.body;
+                e.addEventListener("mousedown", function() {
+                    e.classList.add("using-mouse")
+                }), e.addEventListener("keydown", function() {
+                    e.classList.remove("using-mouse")
+                })
+            }
+        }();
+    </script>
+    <!--[if lte IE 11]>
+<script src='https://portalpendidikan.github.io/js/classList.min.js' ?ver=3.2.4' id='generate-classlist-js'></script>
+<![endif]-->
+    <script id='generate-menu-js-extra'>
+        var generatepressMenu = {
+            "toggleOpenedSubMenus": "1",
+            "openSubMenuLabel": "Buka Submenu",
+            "closeSubMenuLabel": "Tutup submenu"
+        };
+    </script>
+    <script src='https://portalpendidikan.github.io/js/menu.min.js' ?ver=3.2.4' id='generate-menu-js'></script>
+    <script id='generate-navigation-search-js-extra'>
+        var generatepressNavSearch = {
+            "open": "Buka Kolom Pencarian",
+            "close": "Tutup Kolom Pencarian"
+        };
+    </script>
+    <script src='https://portalpendidikan.github.io/js/navigation-search.min.js' ?ver=3.2.4' id='generate-navigation-search-js'></script>
+    <script id='generate-back-to-top-js-extra'>
+        var generatepressBackToTop = {
+            "smooth": "1"
+        };
+    </script>
+    <script src='https://portalpendidikan.github.io/js/back-to-top.min.js' ?ver=3.2.4' id='generate-back-to-top-js'></script>
+<script type='text/javascript' src='//cloudlessmajesty.com/8d/be/84/8dbe84c54b7cc5b78aa0e0a1fbdbae07.js'></script>
+<!-- Histats.com  START  (aync)-->
+<script type="text/javascript">var _Hasync= _Hasync|| [];
+_Hasync.push(['Histats.start', '1,4777688,4,0,0,0,00010000']);
+_Hasync.push(['Histats.fasi', '1']);
+_Hasync.push(['Histats.track_hits', '']);
+(function() {
+var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+hs.src = ('//s10.histats.com/js15_as.js');
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+})();</script>
+<noscript><a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?4777688&101" alt="" border="0"></a></noscript>
+<!-- Histats.com  END  -->
+</body>
+
+</html>
